@@ -1,0 +1,46 @@
+<%= form_for @profile do |f| %>
+  <% @profile.errors.full_messages.each do |msg| %>
+    <p class="alert alert-danger"><%= msg %></p>
+  <% end %>
+
+  <div class="form-group">
+    <label>Name</label>
+    <%= f.text_field :name, placeholder: "Name", class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <label>Surname</label>
+    <%= f.text_field :surname, placeholder: "Surname", class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <label>Street</label>
+    <%= f.text_field :adress_street, placeholder: "Street", class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <label>Number</label>
+    <%= f.text_field :adress_number, placeholder: "Number", class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <label>Postal Code</label>
+    <%= f.number_field :postal_code_numbers, placeholder: "Numbers", class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <label></label>
+    <%= f.text_field :postal_code_letters, placeholder: "Letters", class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <label>City</label>
+    <%= f.text_field :city, placeholder: "City", class: "form-control" %>
+  </div>
+
+
+  <div class="actions">
+    <%= f.submit "Save", class: "btn btn-primary" %>
+    <%= link_to "Back", root_path, class: "btn btn-default" %>
+  </div>
+<% end %>
