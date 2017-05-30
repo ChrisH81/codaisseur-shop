@@ -1,0 +1,2 @@
+class GuitarCase < Accessory
+end

@@ -1,0 +1,2 @@
+class Amplifier < Hardware
+end
