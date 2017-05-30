@@ -1,0 +1,16 @@
+<div class="panel panel-primary">
+  <div class="panel-heading"><%= @product.name %></div>
+
+  <div class="panel-body">
+
+    <p>Price: <%= @product.price %></p>
+
+
+    <!-- Main Info -->
+    <h4>Description</h4>
+
+    <p><%= @product.description %>
+    <div class="product-img-show"><%= image_tag @product.image_url %></div>
+
+
+<%= link_to "Back", products_path, class: "btn btn-default" %>

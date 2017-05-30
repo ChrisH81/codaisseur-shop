@@ -1,0 +1,17 @@
+
+<div class="product">
+  <% @products.each do |product| %>
+    <div class="col-sm-6 col-md-4">
+
+      <div class="thumbnail">
+      <div class="product-img-index"><%= image_tag product.image_url %></div>
+        <div class="caption">
+            <div class="product-name"><%= product.name %></h4></div>
+            <h5><%= product.price %></h5>
+            <p><%= product.description %></p>
+            <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

@@ -1,2 +1,23 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.product {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-name {
+  font-family: Helvetica;
+  color: blue;
+  font-size: 30px;
+}
+
+.product-img-show img {
+  max-height: 800px;
+  max-width: 800px;
+}
+
+.product-img-index img {
+  max-height: 300px;
+  max-width: 300px;
+}
