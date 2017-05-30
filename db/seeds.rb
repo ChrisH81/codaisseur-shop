@@ -1,3 +1,14 @@
+
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+adminuser = Admin.create!(email: "admin@admin.com", password: "password")
+
 # ElectricGuitars
 product1 = ElectricGuitar.create!(
   name: "GIBSON JOE BONAMASSA BONABYRD ELECTRIC GUITAR - ANTIQUE PELHAM BLUE",
@@ -1440,6 +1451,7 @@ Because a Ukulele should never travel alone, the Stagg Gold Tweed Baritone Ukule
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/t/stagg_gold_tweed_ukulele_case.jpg",
 )
 
+<<<<<<< HEAD
 product55 = StringSet.create!(
   name: "D'ADDARIO EXL170SL NICKEL WOUND BASS STRINGS, LIGHT, SUPER LONG SCALE",
   price: 24.99,
