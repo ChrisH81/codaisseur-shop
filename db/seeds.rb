@@ -1,3 +1,14 @@
+
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+adminuser = Admin.create!(email: "admin@admin.com", password: "password")
+
 # ElectricGuitars
 product1 = ElectricGuitar.create!(
   name: "GIBSON JOE BONAMASSA BONABYRD ELECTRIC GUITAR - ANTIQUE PELHAM BLUE",
@@ -1086,3 +1097,4 @@ Milk Bottle Grover Rotomatic tuners with die cast alloy keys are fitted to the h
 The Gibson 2016 ES-335 Electric Guitar comes in a lavish, soft Satin Faded Cherry finish which looks and feels great. To protect the ES-335 for years to come, Gibson supply a tan colour hard shell case to safeguard your new pride and joy wherever you may take it. It also comes with a Gibson Memphis certificate of authority.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/e/s/esds16rdnh1_front.jpg",
 )
+
