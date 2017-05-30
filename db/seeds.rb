@@ -1343,3 +1343,113 @@ The back of the headstock features an ornamental grained ivoroid wing inlay whil
 Taylor include a Deluxe Hardshell case in Brown to shield the guitar when in storage or taken on the road. The Taylor 618 is a superior electro acoustic model that produces a full-bodied acoustic voice across the frequencies.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/6/1/618e-front-taylor.jpg",
 )
+
+
+product46 = GuitarCase.create!(
+  name: "GRETSCH G6241FT 16” HOLLOWBODY GUITAR CASE",
+  price: 177.00,
+  stock: 50,
+  description: "The Gretsch G6241FT 16” Hollowbody Guitar case is specifically designed to fit any Gretsch 16” hollow body guitar, including the Gretsch 5120, 5122 and many more!
+
+Built with ultimate protection in mind, the Gretsch 6241FT 16” Hollowbody Guitar Case is constructed from 3-ply wood, and lined with a Faux Fur inner. Whilst remaining as solid as you'd expect it to be, the Faux Fur inner lining ensures that the guitar remains perfectly nestled and protected from unwanted damage.
+
+The outer case is lined with black tolex - an industry standard material that has proven its durability for decades - and marked with the signature golden Gretsch logo. The case also features gold latches with a key-operated lock, allowing you to securely the case when it's not by your side. Not only offering protection, the case also lends style and sophistication in an easy to carry package.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/g/r/gretsch-g6241ft-16inch-hollowbody-guitar-case.jpg",
+)
+
+product47 = GuitarCase.create!(
+  name: "",
+  price: 99.00,
+  stock: 50,
+  description: "",
+  image_url: "",
+)
+
+product48 = GuitarCase.create!(
+  name: "HISCOX LITEFLITE STANDARD CLASSICAL GUITAR CASE",
+  price: 99.00,
+  stock: 50,
+  description: "Classical Style Guitar Case. Suitable for classical guitars up to 385mm width and small bodied steel string acoustics.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/h/i/hiscox_liteflite_standard_classical_guitar_case.jpg",
+)
+
+product49 = GuitarCase.create!(
+  name: "",
+  price: 1,
+  stock: 50,
+  description: "",
+  image_url: "",
+)
+
+product50 = GuitarCase.create!(
+  name: "EPIPHONE NEW CENTURY OLYMPIC MASTERBILT HARD CASE",
+  price: 99.00,
+  stock: 50,
+  description: "The Epiphone New Century Olympic Masterbilt Hard Case is designed to perfectly accommodate the smaller-sized Olympic archtop acoustic/electric guitar. Finished in a gorgeous Russet Brown-coloured case that evokes the aesthetic of the original leather-covered Masterbilt cases from the 1930s, this is the perfect complement to your guitar. In keeping with the guitar's design, the top of the case features an archtop that adheres to the Olympic Masterbilt for a snug fit when closed.
+
+The lid is adorned with Masterbilt Century in gold Art Deco-inspired typeface, with 4 latches and hardware that have been treated with an aged brass finish. Even the paddle handle has the feel of vintage leather. Inside you'll find a soft burgundy interior with a vintage “E” embossed on the lid. Down to the smallest detail, the team at Epiphone have ensured the case is immaculate - even the accessory compartment has a leather pull.
+
+As with your Olympic, the Epiphone New Century Olympic Masterbilt Hard Case is built to endure, and you're sure to have both to appreciate and perform with for years to come.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/e/p/epiphone_new_century_olympic_masterbilt_hard_case.jpg",
+)
+
+product51 = GuitarCase.create!(
+  name: "EPIPHONE WILDKAT HARDSHELL ELECTRIC GUITAR CASE",
+  price: 86.00,
+  stock: 50,
+  description: "If your own a Wildkat guitar, then the Epiphone Wildkat Hardshell case is the ideal way to keep it safe. Epiphone is no stranger to designs that are new and unique, but it also has an enviable heritage of guitars with classic, vintage looks- it did build its reputation with some of the finest archtops available, after all.
+
+The Wildkat is a modern guitar that takes elements of Epiphone’s classic instruments, and combines them to form a beautiful new model. The only problem, as is sometimes the case with new guitar model, was that finding a hard case to fit was a bit of a struggle.
+
+Thankfully, Epiphone has delivered a hardshell case specifically for the Wildkat, built to the impeccable standards of its other hard cases. This is perfectly sized and fitted for the Wildkat’s unique shape.
+
+This solidly made design has an outer that is completely wrapped in tough, black vinyl covering. Four metal catches are fitted, to ensure that when the case is shut, it stays shut.
+
+Inside the case is a plush, faux-fur lining, making doubly sure that nothing will scuff, scratch or mark the finish of your guitar when placed in here. In addition, an accessory compartment provides some useful space for picks, capos or other accessories.
+
+The famous Epiphone logo is printed on the outside of the case in gold, adding to the case’s classic aesthetic.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/e/p/epiphone_wildkat_hardshell_case.jpg",
+)
+
+product52 = GuitarCase.create!(
+  name: "EPIPHONE EMPEROR HARDSHELL GUITAR CASE",
+  price: 86.00,
+  stock: 50,
+  description: "The Epiphone 940-EEMCS hardshell case has been designed and built to protect your Epiphone Joe Pass Emperor II, Zephyr Regent or ES-295. Epiphone have built this case to their impeccably high-standards, using only the best materials to ensure that no matter where life takes you and your guitar, you can rest assured it's safe and sound.
+
+The solid wooden framework makes up the lightweight but incredibly strong interior that absorbs all impact and vibrations, so your guitar doesn't feel a thing. This framework is covered in tough black Tolex, an incredibly durable and resilient material that has been used on amps and cases for decades, establishing itself as the industry standard for protection. Tolex also gives the case a cool and slick finish that stands up to the most punishing of tour schedules. A stylish gold Epiphone logo adorns the lid.
+
+Around the lid of the case there are three solid metal clasps that keep it firmly secured to prevent any accidents. One of the clasps is also lockable so that no one can access the guitar except for you - great for times when you need to store it at a venue before a gig and want to protect it from the restless fingers of others.
+
+The case has a plush lining interior, which prevents unwanted scratches or abrasions from affecting the finish of your Jack Casady bass. The internal lining cushions the guitar with a snug fit so that it doesn't move around inside, protecting the strap holders, machine heads and bridge hardware. There is an accessory compartment within the case to store your extra strings, tuner and cleaning tools - enabling you to carry everything in a single-case.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/e/p/epiphone_emperor_hardshell_guitar_case.jpg",
+)
+
+product53 = GuitarCase.create!(
+  name: "EPIPHONE ED50 F STYLE MANDOLIN HARD CASE",
+  price: 68.00,
+  stock: 50,
+  description: "The Epiphone F Style Hard Case is purpose built to protect your mandolin wherever you should take it. Epiphone are renowned for their attention to detail, and this hard case is designed with quality at the forefront to be the perfect protection for your mandolin.
+
+It has a strong, durable construction and a plush, soft interior which your mandolin will fit inside snugly.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/p/_/p_mm50caseed50-1d0202520d91e530b5e46c711e21d156.jpg",
+)
+
+product54 = GuitarCase.create!(
+  name: "STAGG GOLD TWEED BARITONE UKULELE HARD CASE
+",
+  price: 64.99,
+  stock: 50,
+  description: "The lifespan of instruments can be all to short nowadays and damage is something that can be easily avoided for very little expense... Certainly less than it would cost to replace your beloved instrument.
+
+This is where the Stagg Gold Tweed Baritone Ukulele Hard Case comes in. A solid outer shell that can handle a great amount of impact is combined with the thick, plush interior meaning your Ukulele wont shake around when in transport. This also means all strings and protrusions will be met with soft and gentle care giving you complete peace of mind that your Uke will be in the same condition when you get to your destination as it was when you packed it up.
+
+CLASS WITH PRACTICALITY
+
+The Stagg Gold Tweed Baritone Ukulele Hard Case is not your standard flat, black case. Instead you have a lavish gold tweed finish... Some say traditional, others retro, but it's got a ton of character and the covering in itself is hard wearing and will stay fresh for years to come. Add to this the leather effect sewn edging and heavy-duty anodized steel hardware complete with gold finish and you have a strong, good looking companion with pure protection in mind.
+
+Because a Ukulele should never travel alone, the Stagg Gold Tweed Baritone Ukulele Hard Case contains a secret internal compartment to store your accessories, picks, leads and tuners... anything you want... within reason. Finally, this case would be no good if it was dragged around by string, so the good guys and girls at Stagg have added a heavy-duty, padded carry handle so you can feel just as comfortable as your Uke will. At less than £50, who could argue with that?",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/t/stagg_gold_tweed_ukulele_case.jpg",
+)
+
+
