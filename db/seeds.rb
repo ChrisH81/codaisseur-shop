@@ -1451,7 +1451,6 @@ Because a Ukulele should never travel alone, the Stagg Gold Tweed Baritone Ukule
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/t/stagg_gold_tweed_ukulele_case.jpg",
 )
 
-<<<<<<< HEAD
 product55 = StringSet.create!(
   name: "D'ADDARIO EXL170SL NICKEL WOUND BASS STRINGS, LIGHT, SUPER LONG SCALE",
   price: 24.99,
@@ -1729,3 +1728,4 @@ SIMPLIFIED PLAYBACK AND RECORDING
 The Spider V is equipped with USB connections that are compatible with iOS/Android/Mac/PC based systems. This allows you to connect to your smartphone/tablet/computer of choice for simplified playback and recording.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/p/spider_v_240_front.jpg",
 )
+

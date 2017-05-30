@@ -1,25 +1,19 @@
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    Your Products
-  </div>
 
-  <div class="panel-body">
-    <% @products.each do |product| %>
-    <div class="row">
-      <div class="col-md-9">
-        <h4><%= product.name %></h4>
-        <%= form_for @order_item do |f| %>
-          <div class="input-group">
-            <%= f.number_field :quantity, value: 1, class: "form-control", min: 1 %>
-            <div class="input-group-btn">
-              <%= f.hidden_field :product_id, value: product.id %>
-              <%= f.submit "Add to Cart", class: "btn btn-primary" %>
-            </div>
-          </div>
-        <% end %>
+
+<div class="product">
+  <% @products.each do |product| %>
+    <div class="col-sm-6 col-md-4">
+
+      <div class="thumbnail">
+      <div class="product-img-index"><%= image_tag product.image_url %></div>
+        <div class="caption">
+            <div class="product-name"><%= product.name %></h4></div>
+            <h5><%= product.price %></h5>
+            <p><%= product.description %></p>
+            <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
+        </div>
       </div>
     </div>
-    <% end %>
+  <% end %>
 
-  </div>
 </div>
