@@ -1,0 +1,2 @@
+class ElectricGuitar < Guitar
+end

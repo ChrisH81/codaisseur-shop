@@ -1,0 +1,2 @@
+class StringSet < Accessory
+end
