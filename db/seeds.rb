@@ -1086,3 +1086,356 @@ Milk Bottle Grover Rotomatic tuners with die cast alloy keys are fitted to the h
 The Gibson 2016 ES-335 Electric Guitar comes in a lavish, soft Satin Faded Cherry finish which looks and feels great. To protect the ES-335 for years to come, Gibson supply a tan colour hard shell case to safeguard your new pride and joy wherever you may take it. It also comes with a Gibson Memphis certificate of authority.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/e/s/esds16rdnh1_front.jpg",
 )
+
+product35 = AcousticGuitar.create!(
+  name: "GIBSON 2017 SJ-200 VINTAGE ACOUSTIC GUITAR - VINTAGE SUNBURST",
+  price: 4_499.00,
+  stock: 50,
+  description: "The 2017 SJ-200 Vintage acoustic by Gibson still remains one of the most legendary models among artists all over the world. Its Super Jumbo body construction is instantly recognisable, while this also contributes to its colossal, beautiful acoustic voice across all frequencies. Built using VOS, historically-accurate techniques combined with some stunning aesthetic appointments, the 2017 SJ-200 Vintage offers the best of both the vintage and modern worlds.
+
+SUPER JUMBO BODY
+
+The top of the SJ-200 Vintage is constructed from Adirondack red Sitka spruce which is then given a Thermally Aged, VOS hand-rubbed Vintage Sunburst finish. This AAA-grade spruce top projects a full-bodied, rich acoustic voice, and is combined with beautiful flamed maple in the back and sides. At the back of the body you will see some outstanding craftsmanship in the form of the back seam which is trimmed in a three rope marquetry strip for an incredibly unique design feature. The spruce top is radiused with scalloped bracing, adding stability while also improving overall resonance and voice.
+
+NECK
+
+The SJ-200 Vintage is firmly joined with a smooth two-piece maple neck via the compound dovetail joint and secured using hot hide glue. The neck is shaped to a round profile, providing a comfortable playing feel in your hand. Married to the neck is a sumptuous rosewood fingerboard, offering 20 frets for you to explore. The fingerboard features antiqued binding which covers the ends of the frets for a classic appearance. Gibson have also added Mother of Pearl SJ-200 Crown inlays in the frets by hand, guiding you along with complete confidence.
+
+HARDWARE AND FINISH
+
+The SJ-200 Vintage is kitted out with a sturdy rosewood Mustache bridge accompanied by the hand-shaped bone nut and saddle in keeping with its vintage specifications.
+
+The headstock is equipped with the first-rate gold Gotoh Relic tuners. These have a somewhat aged appearance, however they have a 15:01 gear ratio and act like a brand new tuning machine thanks to expert engineering from the luthiers at Gibson.
+
+The beautiful, Vintage Sunburst body is completed with a time-honoured SJ-200 tortoise pickguard. This is engraved and meticulously painted by hand for a one-of-a-kind look.
+
+In order to keep the SJ-200 Vintage in the best possible condition, Gibson include a brown hardshell case as well as a handy Gibson Acoustic Owner's Manual.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/s/j/sj22vngh1_main_hero_front.jpg",
+)
+
+product36 = AcousticGuitar.create!(
+  name: "TAYLOR K24CE ELECTRO ACOUSTIC GUITAR - NATURAL",
+  price: 4_199.00,
+  stock: 50,
+  description: "A true gent, the Taylor K24ce Electro Acoustic Guitar marries together handsome aesthetics and a beautiful voice, to create an instrument of unignorable subtlety. Taylor’s most popular body shape, Grand Auditorium, has been chosen for the body of the Taylor K24ce Electro Acoustic Guitar, because of its versatility of tone, especially in the midrange, and note definition, which make it equally capable for both flatpicking and strumming styles. Also making up the Taylor K24ce’s silhouette is a Venetian cutaway. This addition gives unrestricted access to the upper frets and adds to the beauty of the instrument, with its soft, round curves.
+
+Also of note in the construction of the Taylor K24ce Electro Acoustic Guitar is the bracing used for its top: CV with Relief Rout. Along with other refinements, this bracing loosens the edges of the top, whilst retaining structural integrity, to increase flexibility and give a fuller, fatter sound without affecting articulation.
+
+The body of the Taylor K24ce Electro Acoustic Guitar is unmistakably and unapologetically Hawaiian Koa in its construction. This beautiful wood is more than just a pretty face, however. Tonally it sits nicely between mahogany and maple, with mahogany’s midrange and maple’s top end. It is one of those woods that likes to played and rewards its owner over time; starting out bright and focussed, but developing a wider midrange and a richer, sweeter, more resonant tone.
+
+NECK
+
+Joined to the body of the Taylor K24ce Electro Acoustic Guitar is a mahogany neck, topped by an ebony fingerboard with the gorgeous Island Vine inlay spanning its length, which also appears on the headstock. Like the body, this has an Indian rosewood binding that splits up the design nicely.
+
+ELECTRONICS
+
+Although an excellent acoustic guitar, the Taylor K24ce Electro Acoustic Guitar also gives you the option of plugging into an amplifier or PA system. Ensuring that none of the guitar’s character is lost when travelling from guitar to speaker, Taylor have developed their own pickup system, now in its second version, the Taylor Expression System 2.
+
+Through their research Taylor found that the best place for a pickup is behind, rather than under, the saddle, and this is where you will find the pickup on the Taylor K24ce Electro Acoustic Guitar. Made up of three strategically placed sensors installed through the bridge, the Taylor Expression System 2 gets the best from the guitar. It also gives you a set of three discreet controls knobs at the upper bout, for quick and easy tone shaping. These controls are: volume, treble, and bass.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/t/a/taylor-k24ce-fr-2015-front_1.jpg",
+)
+
+product37 = AcousticGuitar.create!(
+  name: "TAYLOR K22CE GRAND CONCERT ELECTRO ACOUSTIC GUITAR - NATURAL",
+  price: 4_199.00,
+  stock: 50,
+  description: "The Taylor K22ce Grand Concert Electro Acoustic Guitar in natural finish is a sumptuous guitar in every sense; this model is dripping with sophisticated charm from its cool shade burst finish that shows off the natural grain of the Koa beautifully, the sweetly designed Island Vine inlay, gold hardware and breath-taking timbre.
+
+SUPERB TAYLOR GRAND CONCERT
+
+The Taylor K22ce is built using the small bodied Grand Concert profile, which features a Venetian cutaway to ensure greater upper fret access. The Grand Concert is perfect for players who prefer a smaller body shape, and is particularly useful for fingerstyle players and those who like to employ two-hand tapping techniques, as the diminutive body profile is much less cumbersome than other models. Also, the compact form of the body and tapered waist limits the opportunity for overtones to overwhelm the timbre of the K22ce.
+
+GLORIOUS HAWAIIAN KOA
+
+The body has been constructed solely from Hawaiian Koa, a luxurious tonewood that produces rich tones from the very start, maturing into a truly outstanding model over time. The more you play your K22ce, the more it will develop its own unique flavour. The top is reinforced using CV bracing with relief rout, this bracing loosens the edges of the top, whilst retaining structural integrity, to increase flexibility and give a fuller, fatter sound without affecting articulation. Indian rosewood binding skirts the top and bottom tonewoods, creating a seamless connection between them.
+
+TROPICAL MAHOGANY AND EBONY PARTNERSHIP
+
+Joined to the body of the Taylor K22ce Electro Acoustic Guitar is a mahogany neck, which has been treated to a satin finish that gives it a silky smooth feel. Married to the neck is a heavenly 20-fret ebony fingerboard that is decorated with the gorgeous Island Vine inlay spanning its length - reappearing as the headstock inlay.
+
+EXPRESSION SYSTEM 2
+
+Featuring three uniquely positioned and individually calibrated pickup sensors, the Expression System 2 is designed to capture a more dynamic range of acoustic sound than ever before. Together with Taylor’s custom-designed preamp, the Expression System 2 produces faithful and powerful amplified tone with superb response. Whether you plan to go through a PA system or directly into recording software, you can be sure that you will hear the natural beauty of the Taylor K22ce represented whole-heartedly.
+
+The Taylor K22ce Grand Concert Electro Acoustic Guitar in natural finish isn’t just a guitar, it is a work of art. Taylor gold tuning machines provide a resilient support for the strings, whilst upholding the stylish aesthetic. The shaded edge burst finish is protected by a layer of gloss, ensuring that your pride and joy is preserved for as long as possible. If that wasn’t enough, Taylor has also included a deluxe hardshell case in brown with every model, as well as outstanding Elixir Phosphor Bronze HD Light strings, so as soon as your K22ce arrives, you are good to pick it up and play.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/t/a/taylor-k22ce-fr-2015-front.jpg",
+)
+
+product39 = AcousticGuitar.create!(
+  name: "TAYLOR 812CE 12 FRET ELECTRO ACOUSTIC GUITAR - NATURAL",
+  price: 3_399.00,
+  stock: 50,
+  description: "Taylor is a name that goes hand in hand with high end guitars. Having built an outstanding reputation for creating flawless instruments that are as beautiful to look at as they are to play and hear, Taylor consistently pushes the boundaries and strives for perfection with every model they create. This particular version of the 812ce joins the neck with the body at the 12th fret as oppose to the 14th. As a result, the bridge is further back on the soundboard which delivers a deep, rich vintage tone with suprising projection from such a compact guitar.
+
+The Taylor 812ce 12 Fret's body back and sides have been crafted from Indian rosewood, a delightfully rich and complex tonewood that produces a full and robust mid to low-end force. The top is made from Sitka spruce - a Taylor favourite - due to its excellent resonant properties that enable it to project huge sounds with the greatest of ease. The bright-sounding spruce works in harmony with the body to deliver inspirational tone and projection.
+
+A gloss finish has been given to the body to protect from unwanted nicks and scrapes that could otherwise occur over the years. It also enables the guitar to cope with changes in humidity and temperature capably, making this a fantastic touring and gigging partner. On this model Taylor have created an even slimmer coating of gloss - down from 6mm to 3.5mm - without sacrificing on its protective abilities.
+
+The neck is carefully crafted using a tropical mahogany, giving it an unquestionably sturdy feel in the hand. Married to the mahogany is a sumptuous smoked ebony fingerboard, giving a delightful surface to navigate along. The mahogany and ebony combine perfectly to create a highly resonant platform for the strings, guaranteeing that every note rings out with sparkling clarity. The neck has been treated to newly designed Mother-of-Pearl Element position inlays.
+
+The Taylor 812ce 12 Fret benefits from Taylor's newly designed Expression System 2 (ES2). As part of their never-ending quest for better tone, they shifted their usual 'under-the-saddle' design as they found that by placing the pickup behind the saddle, a less brittle, brash and synthetic sound could be captured. This means that no matter how aggressively you play, the natural warmth produced by the tonewoods rings out beautifully without colouring the signal or blemishing the natural timbre of the 812ce.
+
+The control layout features the same volume and tone control knobs as on the original Expression System, with Taylor changing the gain structure of the preamp slightly to make it a little hotter. When playing live, this subtle adjustment gives the 812e 12-fret the boost you need to be heard loud and clear.
+
+Because the, 812ce 12 Fret Electro Acoustic is a guitar you are going to want to keep in peak condition over the years, Taylor have even included a brown Taylor branded deluxe hardcase making this one of the best packages out there for the most discerning of guitarists.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/t/a/taylor-812ce-tf-fr-2015-front.jpg",
+)
+
+product40 = AcousticGuitar.create!(
+  name: "GIBSON ACOUSTIC HUMMINGBIRD VINTAGE GUITAR - VINTAGE CHERRY SUNBURST",
+  price: 3_299.00,
+  stock: 50,
+  description: "The Gibson Acoustic 2017 Hummingbird Vintage Acoustic Guitar in Vintage Cherry Sunburst resurrects the cool and sophisticated aesthetic of the original, whilst bringing the classic tone and power to a new generation of guitarists. Since it was released back in the 1960s, many musical pioneers have chosen the Hummingbird as their go-to acoustic, including none other than Keith Richards, which has ensured its worthy place in the annals of folk and rock music. With select modern appointments enhancing the awesome playability of the Hummingbird, this is truly a breath-taking model for all players.
+
+CLASSIC HUMMINGBIRD BODY
+
+The Hummingbird was the first square-shoulder dreadnought that Gibson released, which combined powerful projection with comfortable playability to perfection. The robust design was matched by an elegantly shaped body that has the ability to generate a powerful sonic blast when the strings are strummed hard, but delivers an equally sweet timbre when fingerpicked. Whether you're a solo performer or playing as part of an ensemble, the Hummingbird can confidently hold its own.
+
+The body back and sides are built from solid mahogany, which works beautifully with the dreadnought body shape to generate warmth and power.
+
+The top is crafted using a thermally cured Sitka spruce, which employs a technique that enables Gibson to replicate the aging process with peerless precision. The result is a soundboard that closely replicates the classic Hummingbird in sound and appearance. Radiused scalloped bracing is used to reinforce the top, whilst also optimising projection and resonance. To accentuate the glorious vintage cherry sunburst finish, 6-ply binding has been employed that encircles the tonewood.
+
+SOLID ROUNDED NECK
+
+A mahogany neck is firmly fitted to the body via the compound dovetail joint for improved resonance. The neck is shaped to a round profile, offering a smooth playing feel. Aboard the neck is a rosewood fingerboard, presenting you with 20 frets and decorated beautifully with Mother-of-Pearl parallelogram inlays.
+
+The neck and fingerboard feel more comfortable than ever thanks to the softened fingerboard edge which is designed to fit perfectly in the hand. Gibson have gone the extra mile to make this limited-edition Hummingbird feel like the best acoustic playing surface, and this is a result of the German-engineered, hand-finished Plek technology used in the construction of all Gibson acoustics.
+
+HARDWARE AND FINISH
+
+The lower bout of the Hummingbird is fitted with a traditional belly up rosewood bridge, and like the fingerboard, the bridge is treated with a new finishing oil which gets right into the wood to ensure that it will last even longer. The headstock of the Hummingbird is equipped with gold Gotoh tuning keys, accurately maintaining the tuning of each string in conjunction with the bone saddle. The body is adorned with a vintage pickguard is detailed with a hand painted design, adding to the heavenly finish.
+
+The Gibson Acoustic 2017 Hummingbird Vintage Acoustic Guitar in Vintage Cherry Sunburst is supplied with a protective brown hardshell case with each purchase, as well as a Gibson Acoustic Owner's Manual, and a certificate of authenticity.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/g/i/gibson_acoustic_hummingbird_vintage_guitar_-_vintage_cherry_sunburst_-_full_1.jpg",
+)
+
+product41 = AcousticGuitar.create!(
+  name: "TAYLOR 810CE ELECTRO ACOUSTIC GUITAR - NATURAL",
+  price: 3_249.00,
+  stock: 50,
+  description: "Described as a “true Taylor icon”, this 800 series Taylor 810CE Electro Acoustic Guitar is one of the highest quality guitars they make. The classic Dreadnought body shape is crafted from some of the finest tonewoods available and includes onboard electronics.
+
+Many people see the Dreadnought body as a traditional choice, perfect for styles of music requiring powerful and pronounced strumming. This body shape is extremely firm sounding and stands out as a classic with much loved acoustic tone consisting of bold and rich overtones. The Taylor 810CE Electro Acoustic Guitar does sound best being pushed but is also capable of more subtle tonality.
+
+The choice of tonewoods is an extremely important part of acoustic guitar construction, each one creating a completely different sound. The Taylor 810CE Electro Acoustic Guitar creates a wonderfully rich and warm sound thanks to sought after Indian Rosewood and Sitka Spruce construction. This classic pairing is truly unstoppable and will impress you time after time.
+
+The on-board Taylor Expression System is a pickup and preamp combo said to output natural, well-captured tone that can be adjusted using the simple controls present on the guitars body. Bass and treble EQ amount can be adjusted, along with the overall volume level of the output – a combination that gives you more tonal choice than you might first think. If you’re planning on using the Taylor 810CE Electro Acoustic Guitar for performance, you’ll be glad to know it also comes with a Taylor Deluxe Hardshell case.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/t/a/taylor-810ce-fr-2015-front.jpg",
+)
+
+product42 = AcousticGuitar.create!(
+  name: "GIBSON 2017 L-00 VINTAGE ACOUSTIC GUITAR - VINTAGE SUNBURST",
+  price: 3_199.00,
+  stock: 50,
+  description: "The L-00 Vintage acoustic guitar looks, feels and sounds completely vintage. With its traditional build and artistic small-body design, the L-00 Vintage will feel like you own a piece of history. With a Thermally Aged body top and authentic vintage appointments, the L-00 still remains a symbolic acoustic model.
+
+BODY
+
+The small body of the L-00 Vintage features a Thermally Aged, Adirondack AA-grade red spruce top for a very genuine vintage Gibson acoustic tone. Accompanying the spruce top is mahogany in the back and sides. Binding the body together is the traditional Franklin Titebond 50 hot hide glue which improves the guitar's ability to freely transmit its tone. The spruce top is radiused with scalloped bracing, adding stability and improving overall resonance and voice.
+
+The L-00 Vintage body has a beautiful Vintage Sunburst finish, hand-sprayed by the expert luthiers at Gibson for a unique, smooth appearance.
+
+NECK
+
+A single-piece mahogany neck is firmly fitted to the body via a compound dovetail neck joint and shaped to a V-profile. The neck is secured using hot hide glue, further enhancing resonance and sound transference throughout the guitar. The neck has a wider nut at 1.75 inches that, along with thye comfortable V-profile, adds to the vintage impression that the L-00 gives. Topping the neck is a 19-fret rosewood fingerboard, decorated with white Mother of Pearl dot inlays to guide you.
+
+HARDWARE AND FINISH
+
+The headstock features a vintage inspire white Gibson logo and relic-style strap tuners to keep it true and traditional. At the lower bout of the body, Gibson have employed a rectangle open slot rosewood bridge with a hand-shaped bone saddle. The string spacing on the L-00 Vintage is also wider than usual, facilitating fingerstyle play in particular as it allows more room for an ultimately comfortable playing feel. The black bridge pins draw influence from its historic predecessors for an authentic finish.
+
+The new L-00 Vintage comes with a black hardshell Gibson guitar case, as well as a handy Gibson Acoustic Owner's Manual to help you keep this guitar in the best possible condition for many years to come.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/l/s/lslvvsnh1_front.jpg",
+)
+
+product43 = AcousticGuitar.create!(
+  name: "TAYLOR 610CE ELECTRO ACOUSTIC GUITAR - NATURAL",
+  price: 3_099.00,
+  stock: 50,
+  description: "The Taylor 610ce electro acoustic brings absolute tonal clarity and note articulation to the powerful dreadnought-shape. The 610ce includes custom Taylor appointments to make it very special indeed. The dreadnought body shape provides a solid base to formulate a huge sound. The delightfully bright-sounding sitka spruce top - which is given even more room to resonate thanks to the forward shifted bracing pattern with relief rout, therefore projecting sound in a far more efficient way - is married to a gorgeous big leaf maple back and sides.
+
+The 610ce is not only built with power and projection in mind, but delivering a full-bodied tonal range. The sitka spruce gives shimmering clarity to the upper frequency range, whilst the maple delivers a blast of mid to low-end clout.
+
+The body also features a cutaway at the 14th frets, giving easier access to the upper frets.
+
+A solid hard rock maple neck is partnered up with a luxurious ebony fingerboard, combining to create a robust yet lively playing feel. There are 20-frets at your disposal, adorned with twisted oval inlays to guide your way.
+
+The body and neck are both protected by a gloss finish, preserving the natural beauty of the woods for as long as possible. As well, as providing a layer of security, the gloss also creates a smooth playing feel along the neck, making it much easier to navigate.
+
+ELECTRONICS
+
+The Taylor 610ce is fitted with Taylor's own Expression System 2, which features some interesting improvements following research conducted by Taylor's electronics team.
+
+Rather than feature an under-saddle pickup - following painstaking research and testing - Taylor have instead placed the pickup behind-the-saddle, featuring three uniquely positioned and individually calibrated pickup sensors. This means that whether you're a heavy hitter or a gentle strummer, thanks to the ES2 electronics system, you'll be able to experience a more natural-sounding, amplified acoustic Taylor, like you've never heard before!
+
+The onboard control system is still the same with volume and tone controls within easy access, making it incredibly simple to make changes on the fly during gigs or recording sessions.
+
+HARDWARE/FINISH
+
+The Taylor 610ce is completed with some gorgeous finishing touches to complete the high-quality look and feel of the guitar. Taylor's own gold tuners maintain tuning integrity throughout even the most aggressive of performances with absolute precision. White body binding supports the top and provides a beautiful contrast against the natural spruce. The white traces its way along the neck and around the headstock, which itself is adorned with the signature Taylor logo.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/t/a/taylor_610ce_electro_acoustic_guitar_-_natural_copy_1.jpg",
+)
+
+product44 = AcousticGuitar.create!(
+  name: "GIBSON 1932 L-00 REISSUE ACOUSTIC GUITAR - VINTAGE SUNBURST",
+  price: 2_999.00,
+  stock: 50,
+  description: "The Gibson 1932 L-00 Reissue Acoustic Guitar in Vintage Sunburst is the closest rendition of this classic model you can get your hands on - short of owning a mint condition original. The sublime Parlour-sized guitar has been crafted to the highest standard of quality, with premium tonewoods and first-rate Gibson craftsmanship on hand to create a guitar that can be cherished for generations to come.
+
+As we've come to expect from Gibson, nothing has been spared in guaranteeing the longevity and peerless quality of this reissue. The top of the Gibson 1932 L-00 Reissue has been built using solid Adirondack red spruce, a highly reverberant tonewood that projects the timbre of the guitar with exceptional clarity. The back and sides are constructed from pattern-grade solid mahogany, a warm tonewood that produces a dense mid to low-end timbre, which offers a forceful output.
+
+DIMINUTIVE BODY PROFILE
+
+The diminutive parlour dimensions take nothing away from the rich character of these woods, and the projection and power of the L-00 easily matches that of a model with larger proportions. Gibson’s 1930’s period-correct X-braced bracing with hot hide glue, reinforces the structural integrity of the top.
+
+The top benefits from single-ply binding, whilst the sound hole is adorned with a traditional rosette, complementing the sumptuous vintage sunburst finish. Protecting the finish is a hand-sprayed coating of nitrocellulose lacquer, which is carefully formulated and applied to enable the tonewoods to resonate fully whilst offering the highest level of protection. The traditional L-00 Firestripe pick guard offers further protection to the body around the sound hole from unwanted scrapes.
+
+DURABLE MAHOGANY NECK
+
+Fitted to the body via a traditional compound dovetail joint at the 14th fret - and again using hide glue for reinforcement -, is the durable mahogany neck, which has been shaped to a 1930's V-shaped profile. The neck is paired with a stunning rosewood fingerboard that is home to 19-frets that are decorated with 1/4 inch mother of pearl dot position inlays. Period-correct standard fret wire is in place to adhere to the vintage look and feel, whilst a generous 12 inch radius secures that much sought after 'Gibson playability'.
+
+The traditional AJ headstock has been set to the customary 17-degree angle, working in partnership with the Black Graphtech nut to ensure that string tension is maintained. The 3-in-line period-correct cream button tuning machines maintain a 14:1 tuning ratio. The traditional rectangle rosewood bridge with extended-slot bone saddle upholds intonation perfectly. Every piece of hardware carries out its task dutifully to create a luxurious playing feel.
+
+PRE-WAR GIBSON HARDSHELL CASE
+
+To complete the first-class package, Gibson has included a pre-war red line case, with black tolex exterior and purple fabric interior, to create the durable and protective partner for your pride and joy. Whether it stays at home or joins you on tour, you can rest assured that your 1932 L-00 Reissue is safe and secure. You will also receive an Owner's Manual, and the Gibson Gold Warranty.
+
+The Gibson 1932 L-00 Reissue Acoustic Guitar in Vintage Sunburst is a loving tribute to a classic model, by a team who have put their heart and soul into crafting an immaculate model. It doesn't get much better than this.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/g/i/gibson_1932_l-00_reissue_acoustic_guitar_-_vintage_sunburst_-_front.jpg",
+)
+
+product45 = AcousticGuitar.create!(
+  name: "TAYLOR 618E ELECTRO ACOUSTIC GUITAR - NATURAL",
+  price: 2_899.00,
+  stock: 50,
+  description: "When it comes to developing and designing acoustic guitars of an exceptional quality, the luthiers at Taylor are true masters. The 618e is built to the Grand Orchestra body profile, Taylor's most recent guitar shape which delivers with intense resonance. Taylor describe the 618e as being like a grand piano in guitar form, constructed using premium tonewoods to generate a well-balanced acoustic timbre.
+
+GRAND ORCHESTRA BODY
+
+The Grand Orchestra body profile is the newest of Taylor's shapes and it is also the biggest. Its larger size enables it to produce a compelling range of tones, all with plenty of volume. The 618e also features Advanced Performance bracing with relief rout which provides the body with more strength as well as enhancing the soundboard's ability to move, consequently the overall tone and sustain are improved.
+
+Sitka spruce is the tonewood of choice in the body top and it is roasted to stimulate the natural aging process of the guitar. This provides the 618e with a dynamic response and a tone that resembles an older guitar. The back and sides are constructed using maple which is given a hand-rubbed, unique Brown Sugar finish. The pairing of spruce and maple add magnitude to the tones made available, providing clarity and ultimate tonal versatility.
+
+NECK
+
+Hard rock maple is used in the neck and given a smooth, satin finish and scarf neck joint. The neck feels incredibly comfortable and is certainly built to last. Topping the neck is an ebony fingerboard with 20 frets at your service. The decorative grained ivoroid wing inlays guide you from one fret to another with total confidence.
+
+ELECTRONICS
+
+The Expression System 2 electronics fitted in the 618e are an innovative creation by Taylor. This preamp takes the piezo pickup and gives it a modern twist to improve the amplification of the 618e. Unlike many other electro acoustic models, the Taylor 618e has a piezo pickup which is in fact behind the saddle, with three individually calibrated sensors that meticulously transfer the guitar's natural tone through an amp.
+
+The preamp has controls for Volume and Tone which allow for simple command of your tone.
+
+HARDWARE AND FINISH
+
+The back of the headstock features an ornamental grained ivoroid wing inlay while the nickel tuners uphold tuning integrity with precision. The natural finish of the body top is accompanied by an ebony / ivoroid rosette and a striped ebony pickguard, protecting the soundboard against scratches.
+
+Taylor include a Deluxe Hardshell case in Brown to shield the guitar when in storage or taken on the road. The Taylor 618 is a superior electro acoustic model that produces a full-bodied acoustic voice across the frequencies.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/6/1/618e-front-taylor.jpg",
+)
+
+product46 = GuitarCase.create!(
+  name: "GRETSCH G6241FT 16” HOLLOWBODY GUITAR CASE",
+  price: 177.00,
+  stock: 50,
+  description: "The Gretsch G6241FT 16” Hollowbody Guitar case is specifically designed to fit any Gretsch 16” hollow body guitar, including the Gretsch 5120, 5122 and many more!
+
+Built with ultimate protection in mind, the Gretsch 6241FT 16” Hollowbody Guitar Case is constructed from 3-ply wood, and lined with a Faux Fur inner. Whilst remaining as solid as you'd expect it to be, the Faux Fur inner lining ensures that the guitar remains perfectly nestled and protected from unwanted damage.
+
+The outer case is lined with black tolex - an industry standard material that has proven its durability for decades - and marked with the signature golden Gretsch logo. The case also features gold latches with a key-operated lock, allowing you to securely the case when it's not by your side. Not only offering protection, the case also lends style and sophistication in an easy to carry package.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/g/r/gretsch-g6241ft-16inch-hollowbody-guitar-case.jpg",
+)
+
+product47 = GuitarCase.create!(
+  name: "",
+  price: 99.00,
+  stock: 50,
+  description: "",
+  image_url: "",
+)
+
+product48 = GuitarCase.create!(
+  name: "HISCOX LITEFLITE STANDARD CLASSICAL GUITAR CASE",
+  price: 99.00,
+  stock: 50,
+  description: "Classical Style Guitar Case. Suitable for classical guitars up to 385mm width and small bodied steel string acoustics.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/h/i/hiscox_liteflite_standard_classical_guitar_case.jpg",
+)
+
+product49 = GuitarCase.create!(
+  name: "",
+  price: 1,
+  stock: 50,
+  description: "",
+  image_url: "",
+)
+
+product50 = GuitarCase.create!(
+  name: "EPIPHONE NEW CENTURY OLYMPIC MASTERBILT HARD CASE",
+  price: 99.00,
+  stock: 50,
+  description: "The Epiphone New Century Olympic Masterbilt Hard Case is designed to perfectly accommodate the smaller-sized Olympic archtop acoustic/electric guitar. Finished in a gorgeous Russet Brown-coloured case that evokes the aesthetic of the original leather-covered Masterbilt cases from the 1930s, this is the perfect complement to your guitar. In keeping with the guitar's design, the top of the case features an archtop that adheres to the Olympic Masterbilt for a snug fit when closed.
+
+The lid is adorned with Masterbilt Century in gold Art Deco-inspired typeface, with 4 latches and hardware that have been treated with an aged brass finish. Even the paddle handle has the feel of vintage leather. Inside you'll find a soft burgundy interior with a vintage “E” embossed on the lid. Down to the smallest detail, the team at Epiphone have ensured the case is immaculate - even the accessory compartment has a leather pull.
+
+As with your Olympic, the Epiphone New Century Olympic Masterbilt Hard Case is built to endure, and you're sure to have both to appreciate and perform with for years to come.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/e/p/epiphone_new_century_olympic_masterbilt_hard_case.jpg",
+)
+
+product51 = GuitarCase.create!(
+  name: "EPIPHONE WILDKAT HARDSHELL ELECTRIC GUITAR CASE",
+  price: 86.00,
+  stock: 50,
+  description: "If your own a Wildkat guitar, then the Epiphone Wildkat Hardshell case is the ideal way to keep it safe. Epiphone is no stranger to designs that are new and unique, but it also has an enviable heritage of guitars with classic, vintage looks- it did build its reputation with some of the finest archtops available, after all.
+
+The Wildkat is a modern guitar that takes elements of Epiphone’s classic instruments, and combines them to form a beautiful new model. The only problem, as is sometimes the case with new guitar model, was that finding a hard case to fit was a bit of a struggle.
+
+Thankfully, Epiphone has delivered a hardshell case specifically for the Wildkat, built to the impeccable standards of its other hard cases. This is perfectly sized and fitted for the Wildkat’s unique shape.
+
+This solidly made design has an outer that is completely wrapped in tough, black vinyl covering. Four metal catches are fitted, to ensure that when the case is shut, it stays shut.
+
+Inside the case is a plush, faux-fur lining, making doubly sure that nothing will scuff, scratch or mark the finish of your guitar when placed in here. In addition, an accessory compartment provides some useful space for picks, capos or other accessories.
+
+The famous Epiphone logo is printed on the outside of the case in gold, adding to the case’s classic aesthetic.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/e/p/epiphone_wildkat_hardshell_case.jpg",
+)
+
+product52 = GuitarCase.create!(
+  name: "EPIPHONE EMPEROR HARDSHELL GUITAR CASE",
+  price: 86.00,
+  stock: 50,
+  description: "The Epiphone 940-EEMCS hardshell case has been designed and built to protect your Epiphone Joe Pass Emperor II, Zephyr Regent or ES-295. Epiphone have built this case to their impeccably high-standards, using only the best materials to ensure that no matter where life takes you and your guitar, you can rest assured it's safe and sound.
+
+The solid wooden framework makes up the lightweight but incredibly strong interior that absorbs all impact and vibrations, so your guitar doesn't feel a thing. This framework is covered in tough black Tolex, an incredibly durable and resilient material that has been used on amps and cases for decades, establishing itself as the industry standard for protection. Tolex also gives the case a cool and slick finish that stands up to the most punishing of tour schedules. A stylish gold Epiphone logo adorns the lid.
+
+Around the lid of the case there are three solid metal clasps that keep it firmly secured to prevent any accidents. One of the clasps is also lockable so that no one can access the guitar except for you - great for times when you need to store it at a venue before a gig and want to protect it from the restless fingers of others.
+
+The case has a plush lining interior, which prevents unwanted scratches or abrasions from affecting the finish of your Jack Casady bass. The internal lining cushions the guitar with a snug fit so that it doesn't move around inside, protecting the strap holders, machine heads and bridge hardware. There is an accessory compartment within the case to store your extra strings, tuner and cleaning tools - enabling you to carry everything in a single-case.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/e/p/epiphone_emperor_hardshell_guitar_case.jpg",
+)
+
+product53 = GuitarCase.create!(
+  name: "EPIPHONE ED50 F STYLE MANDOLIN HARD CASE",
+  price: 68.00,
+  stock: 50,
+  description: "The Epiphone F Style Hard Case is purpose built to protect your mandolin wherever you should take it. Epiphone are renowned for their attention to detail, and this hard case is designed with quality at the forefront to be the perfect protection for your mandolin.
+
+It has a strong, durable construction and a plush, soft interior which your mandolin will fit inside snugly.",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/p/_/p_mm50caseed50-1d0202520d91e530b5e46c711e21d156.jpg",
+)
+
+product54 = GuitarCase.create!(
+  name: "STAGG GOLD TWEED BARITONE UKULELE HARD CASE
+",
+  price: 64.99,
+  stock: 50,
+  description: "The lifespan of instruments can be all to short nowadays and damage is something that can be easily avoided for very little expense... Certainly less than it would cost to replace your beloved instrument.
+
+This is where the Stagg Gold Tweed Baritone Ukulele Hard Case comes in. A solid outer shell that can handle a great amount of impact is combined with the thick, plush interior meaning your Ukulele wont shake around when in transport. This also means all strings and protrusions will be met with soft and gentle care giving you complete peace of mind that your Uke will be in the same condition when you get to your destination as it was when you packed it up.
+
+CLASS WITH PRACTICALITY
+
+The Stagg Gold Tweed Baritone Ukulele Hard Case is not your standard flat, black case. Instead you have a lavish gold tweed finish... Some say traditional, others retro, but it's got a ton of character and the covering in itself is hard wearing and will stay fresh for years to come. Add to this the leather effect sewn edging and heavy-duty anodized steel hardware complete with gold finish and you have a strong, good looking companion with pure protection in mind.
+
+Because a Ukulele should never travel alone, the Stagg Gold Tweed Baritone Ukulele Hard Case contains a secret internal compartment to store your accessories, picks, leads and tuners... anything you want... within reason. Finally, this case would be no good if it was dragged around by string, so the good guys and girls at Stagg have added a heavy-duty, padded carry handle so you can feel just as comfortable as your Uke will. At less than £50, who could argue with that?",
+  image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/t/stagg_gold_tweed_ukulele_case.jpg",
+)
