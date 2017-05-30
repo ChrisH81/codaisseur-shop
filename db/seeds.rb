@@ -1,3 +1,14 @@
+
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+adminuser = Admin.create!(email: "admin@admin.com", password: "password")
+
 # ElectricGuitars
 product1 = ElectricGuitar.create!(
   name: "GIBSON JOE BONAMASSA BONABYRD ELECTRIC GUITAR - ANTIQUE PELHAM BLUE",
@@ -1333,6 +1344,7 @@ Taylor include a Deluxe Hardshell case in Brown to shield the guitar when in sto
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/6/1/618e-front-taylor.jpg",
 )
 
+
 product46 = GuitarCase.create!(
   name: "GRETSCH G6241FT 16” HOLLOWBODY GUITAR CASE",
   price: 177.00,
@@ -1439,3 +1451,5 @@ The Stagg Gold Tweed Baritone Ukulele Hard Case is not your standard flat, black
 Because a Ukulele should never travel alone, the Stagg Gold Tweed Baritone Ukulele Hard Case contains a secret internal compartment to store your accessories, picks, leads and tuners... anything you want... within reason. Finally, this case would be no good if it was dragged around by string, so the good guys and girls at Stagg have added a heavy-duty, padded carry handle so you can feel just as comfortable as your Uke will. At less than £50, who could argue with that?",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/t/stagg_gold_tweed_ukulele_case.jpg",
 )
+
+
