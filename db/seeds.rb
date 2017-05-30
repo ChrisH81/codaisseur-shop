@@ -1087,6 +1087,7 @@ The Gibson 2016 ES-335 Electric Guitar comes in a lavish, soft Satin Faded Cherr
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/e/s/esds16rdnh1_front.jpg",
 )
 
+
 product35 = AcousticGuitar.create!(
   name: "GIBSON 2017 SJ-200 VINTAGE ACOUSTIC GUITAR - VINTAGE SUNBURST",
   price: 4_499.00,
@@ -1332,3 +1333,4 @@ The back of the headstock features an ornamental grained ivoroid wing inlay whil
 Taylor include a Deluxe Hardshell case in Brown to shield the guitar when in storage or taken on the road. The Taylor 618 is a superior electro acoustic model that produces a full-bodied acoustic voice across the frequencies.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/6/1/618e-front-taylor.jpg",
 )
+
