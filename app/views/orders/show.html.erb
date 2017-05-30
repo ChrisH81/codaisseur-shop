@@ -1,0 +1,16 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Your Cart
+  </div>
+
+  <div class="panel-body">
+    <% @order.order_items.each do |order_item| %>
+    <div class="row">
+      <div class="col-md-9">
+        <h4><%= order_item.product.name %></h4>
+      </div>
+    </div>
+    <% end %>
+
+  </div>
+</div>
