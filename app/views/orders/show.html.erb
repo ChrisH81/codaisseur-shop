@@ -1,16 +1,46 @@
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    Your Cart
-  </div>
+<section style="background-color: white; padding: 10px">
+  <h1>Your Cart</h1>
 
-  <div class="panel-body">
-    <% @order.order_items.each do |order_item| %>
+  <div class="row">
+    <h2>
+      <div class="col-md-6">Product Name</div>
+      <div class="col-md-2">Unit Price</div>
+      <div class="col-md-2">Quantity</div>
+      <div class="col-md-2">Total Price</div>
+    </h2>
+  </div>
+  <% @order.order_items.each do |order_item| %>
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-6">
         <h4><%= order_item.product.name %></h4>
       </div>
+      <div class="col-md-2"><%= order_item.unit_price %></div>
+      <div class="col-md-2"><%= order_item.quantity %></div>
+      <div class="col-md-2"><%= order_item.total_price %></div>
     </div>
-    <% end %>
-
+  <% end %>
+  <div class="row">
+    <h3>
+      <div class="col-md-6"></div>
+      <div class="col-md-2">Subtotal</div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2"><%= @order.subtotal %></div>
+    </h3>
   </div>
-</div>
+  <div class="row">
+    <h3>
+      <div class="col-md-6"></div>
+      <div class="col-md-2">Shipping</div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2">n/a</div>
+    </h3>
+  </div>
+  <div class="row">
+    <h3>
+      <div class="col-md-6"></div>
+      <div class="col-md-2">Total Price</div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2"><%= @order.total %></div>
+    </h3>
+  </div>
+</section>
