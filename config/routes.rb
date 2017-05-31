@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'orders/show'
+
+  devise_for :admins
   root to: 'pages#home'
 
   devise_for :users

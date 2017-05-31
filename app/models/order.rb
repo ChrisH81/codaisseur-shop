@@ -1,20 +1,19 @@
 class Order < ApplicationRecord
-  belongs_to :order_status
   has_many :order_items
-  before_create :set_order_status
-  before_save :update_subtotal
 
-  def subtotal
-    order_items.collect { |oi| oi.valid? ? (oi.quantity * oi.unit_price) : 0 }.sum
-  end
+  def add_product(product_params)
+    current_item = order_items.find_by(product_id: product_params[:product_id])
 
-  private
-
-  def set_order_status
-    self.order_status_id = 1
-  end
-
-  def update_subtotal
-    self[:subtotal] = subtotal
+    if current_item
+      current_item.quantity += product_params[:quantity].to_i
+      current_item.save
+    else
+      new_item = order_items.create(
+        product_id: product_params[:product_id],
+        quantity: product_params[:quantity],
+        order_id: self.id
+        )
+    end
+    new_item
   end
 end

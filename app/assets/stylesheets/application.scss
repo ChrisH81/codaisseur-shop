@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 // font-family: 'Coda', cursive;
 // font-family: 'Cherry Swash', cursive;
 // font-family: 'Corben', cursive;
@@ -148,4 +149,24 @@ $colHighlight: rgba(45,45,40,1);
   color: white;
   font-style: 'Racing Sans One', cursive;
   font-size: 20px;
+  
+.product {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-name {
+  font-family: Helvetica;
+  color: blue;
+  font-size: 30px;
+}
+
+.product-img-show img {
+  max-height: 800px;
+  max-width: 800px;
+}
+
+.product-img-index img {
+  max-height: 300px;
+  max-width: 300px;
 }
