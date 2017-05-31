@@ -1356,28 +1356,12 @@ The outer case is lined with black tolex - an industry standard material that ha
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/g/r/gretsch-g6241ft-16inch-hollowbody-guitar-case.jpg",
 )
 
-product47 = GuitarCase.create!(
-  name: "",
-  price: 99.00,
-  stock: 50,
-  description: "",
-  image_url: "",
-)
-
 product48 = GuitarCase.create!(
   name: "HISCOX LITEFLITE STANDARD CLASSICAL GUITAR CASE",
   price: 99.00,
   stock: 50,
   description: "Classical Style Guitar Case. Suitable for classical guitars up to 385mm width and small bodied steel string acoustics.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/h/i/hiscox_liteflite_standard_classical_guitar_case.jpg",
-)
-
-product49 = GuitarCase.create!(
-  name: "",
-  price: 1,
-  stock: 50,
-  description: "",
-  image_url: "",
 )
 
 product50 = GuitarCase.create!(
@@ -1435,8 +1419,7 @@ It has a strong, durable construction and a plush, soft interior which your mand
 )
 
 product54 = GuitarCase.create!(
-  name: "STAGG GOLD TWEED BARITONE UKULELE HARD CASE
-",
+  name: "STAGG GOLD TWEED BARITONE UKULELE HARD CASE",
   price: 64.99,
   stock: 50,
   description: "The lifespan of instruments can be all to short nowadays and damage is something that can be easily avoided for very little expense... Certainly less than it would cost to replace your beloved instrument.
@@ -1501,7 +1484,7 @@ product60 = Pedal.create!(
   name: "BOSS RC-3 LOOP STATION",
   price: 125.00,
   stock: 50,
-  description: "The Boss RC-3 Loop Station Compact Pedal may be small but it has some seriously powerful features. Three hours stereo recording time, storage for 99 loops, a "real drums" rhythm guide, and USB 2.0 compatibility make the Boss RC-3 amazingly compact for such an advanced Loop Station pedal.
+  description: "The Boss RC-3 Loop Station Compact Pedal may be small but it has some seriously powerful features. Three hours stereo recording time, storage for 99 loops, a real drums rhythm guide, and USB 2.0 compatibility make the Boss RC-3 amazingly compact for such an advanced Loop Station pedal.
 
 HUGE RECORDING CAPABILITY
 
@@ -1728,4 +1711,3 @@ SIMPLIFIED PLAYBACK AND RECORDING
 The Spider V is equipped with USB connections that are compatible with iOS/Android/Mac/PC based systems. This allows you to connect to your smartphone/tablet/computer of choice for simplified playback and recording.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/p/spider_v_240_front.jpg",
 )
-

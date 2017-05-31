@@ -11,10 +11,8 @@
 # It's strongly recommended that you check this file into your version control system.
 
 
+
 ActiveRecord::Schema.define(version: 20170530130650) do
-
-
-ActiveRecord::Schema.define(version: 20170530135045) do
 
 
   # These are extensions that must be enabled in order to support this database
@@ -25,7 +23,7 @@ ActiveRecord::Schema.define(version: 20170530135045) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "accoustic_guitars", force: :cascade do |t|
+  create_table "acoustic_guitars", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -128,7 +126,7 @@ ActiveRecord::Schema.define(version: 20170530135045) do
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_profiles_on_user_id"
   end
-  
+
   create_table "string_sets", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

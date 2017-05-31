@@ -1,2 +1,0 @@
-class AccousticGuitar < Guitar
-end
