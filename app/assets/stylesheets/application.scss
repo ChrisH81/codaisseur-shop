@@ -1,13 +1,33 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html {
 
+}
 
-.front-page {
+body {
+  background-image: url('http://truefire.com/blog/wp-content/uploads/2014/11/guitar-buying.jpg');
+  background-size: cover;
+  background-color: black;
+}
+
+// body::after {
+//   content: "";
+//   // background-image: url('http://i.imgur.com/M3qUxW2.jpg');
+//   opacity: 0.3;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   position: absolute;
+//   z-index: -1;
+// }
+
+.front-page-title-bar {
   // display:flex;
   // justify-content: center;
   color: white;
-  background-color: black;
+  background-color: rgba(0,0,0,0.8);
   width: auto;
 }
 
@@ -21,7 +41,7 @@
 .panel-body {
   display:flex;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: rgba(195,195,195,0.9);
   margin-top: -16px;
   width: auto;
   height: 330px;
