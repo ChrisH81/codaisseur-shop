@@ -1,6 +1,155 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+// font-family: 'Coda', cursive;
+// font-family: 'Cherry Swash', cursive;
+// font-family: 'Corben', cursive;
+// font-family: 'Sonsie One', cursive;
+// font-family: 'Cinzel', serif;
+// font-family: 'Racing Sans One', cursive;
+// font-family: 'Oleo Script Swash Caps', cursive;
+
+.footer {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  font-family: 'Sonsie One', cursive;
+  color: white;
+  font-size: 50px;
+}
+
+body {
+  background-image: url('http://truefire.com/blog/wp-content/uploads/2014/11/guitar-buying.jpg');
+  background-size: 110%;
+  background-color: black;
+}
+
+.front-page-title-bar {
+  // display:flex;
+  // justify-content: center;
+  color: white;
+  background-color: rgba(45,45,40,0.9);
+  width: auto;
+}
+
+.front-page-title {
+  display:flex;
+  justify-content: center;
+  font-family: 'Sonsie One', cursive;
+  color: white;
+  font-size: 50px;
+}
+
+.panel-body {
+  display:flex;
+  justify-content: space-between;
+  background-color: rgba(195,195,195,0.9);
+  margin-top: -16px;
+  width: auto;
+  height: 330px;
+}
+
+.cat-tile-title {
+  display:flex;
+  justify-content: center;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 30px;
+  background-color: gray;
+}
+
+.tile-body  {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5px;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.tile-body  img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.category-tile {
+  width: 350px;
+  height: 450px;
+}
+
+.navbar-brand {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 30px;
+}
+
+$bgDefault   : rgba(45,45,40,0.9);
+$bgHighlight : rgba(45,45,40,1);
+$colDefault  : rgba(255,255,255,1);
+$colHighlight: rgba(45,45,40,1);
+
+.navbar-default {
+  position: fixed;
+  width: 100%;
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: rgba(195,195,195,1); }}
+  .navbar-text {
+    color: $colDefault; }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color:  rgba(195,195,195,0.9);; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus, {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: rgba(195,195,195,0.9);
+  color: white;
+  font-style: 'Racing Sans One', cursive;
+  font-size: 20px;
+  
 .product {
   display: flex;
   justify-content: space-around;
