@@ -1,0 +1,2 @@
+class AcousticGuitar < Guitar
+end
