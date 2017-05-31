@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CodaisseurShop</title>
+    <title>Guitarded</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -11,7 +11,6 @@
   </head>
 
   <body>
-    <!-- Static navbar -->
     <%= render 'shared/navbar' %>
 
     <p class="notice"><%= notice %></p>
@@ -20,5 +19,7 @@
     <div class="container">
       <%= yield %>
     </div>
+
+    <%= render 'shared/footer' %>
   </body>
 </html>

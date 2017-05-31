@@ -9,6 +9,15 @@
 // font-family: 'Racing Sans One', cursive;
 // font-family: 'Oleo Script Swash Caps', cursive;
 
+.footer {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  font-family: 'Sonsie One', cursive;
+  color: white;
+  font-size: 50px;
+}
+
 body {
   background-image: url('http://truefire.com/blog/wp-content/uploads/2014/11/guitar-buying.jpg');
   background-size: 110%;
