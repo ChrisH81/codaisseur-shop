@@ -9,20 +9,72 @@
 // font-family: 'Cinzel', serif;
 // font-family: 'Racing Sans One', cursive;
 // font-family: 'Oleo Script Swash Caps', cursive;
-
-.footer {
-  width: 100%;
-  display:flex;
-  justify-content: center;
-  font-family: 'Sonsie One', cursive;
-  color: white;
-  font-size: 50px;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
+// .footer {
+//   width: 100%;
+//   display:flex;
+//   justify-content: center;
+//   font-family: 'Sonsie One', cursive;
+//   color: white;
+//   font-size: 50px;
+// }
+
 body {
+  background-color: transparent;
+  min-height: 100%;
+  margin-bottom: 140px;
+}
+
+.standard-bg {
+  background-color: white;
+}
+
+.front-page-bg {
+  // background-color: transparent;
+  background-image: url('http://cdn.bluefaqs.netdna-cdn.com/wp-content/uploads/2010/02/tileable-grunge.jpg');
+}
+
+.front-page-bg::after {
+  background-size: cover;
+  content: "";
   background-image: url('http://truefire.com/blog/wp-content/uploads/2014/11/guitar-buying.jpg');
-  background-size: 110%;
-  background-color: black;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.footer, .push {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(45,45,40,0.9);
+}
+
+.footer-info {
+  position: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+  padding-top: 15px;
+  font-family: 'Racing Sans One', cursive;
+  line-height: 5px;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 100px;
 }
 
 .front-page-title-bar {
@@ -38,7 +90,7 @@ body {
   justify-content: center;
   font-family: 'Sonsie One', cursive;
   color: white;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .panel-body {
@@ -149,6 +201,7 @@ $colHighlight: rgba(45,45,40,1);
   color: white;
   font-style: 'Racing Sans One', cursive;
   font-size: 20px;
+}
 
 .product {
   display: flex;
@@ -169,5 +222,4 @@ $colHighlight: rgba(45,45,40,1);
 .product-img-index img {
   max-height: 300px;
   max-width: 300px;
-}
 }
