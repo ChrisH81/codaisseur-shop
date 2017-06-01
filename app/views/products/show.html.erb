@@ -1,39 +1,35 @@
 
+<div class="thumbnail">
+  <%= image_tag @product.image_url %>
+  <div >
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4><%= @product.price %></h4>
+        </div>
+        <div class="col-md-9">
+          <h4><%= @product.name %></h4>
+        </div>
+       </div>
+    </div>
 
+      <p><%= @product.description %></p>
+      <p><%= link_to "Buy", products_path, class: "btn btn-primary" %></p>
 
-                <div class="thumbnail">
-                    <%= image_tag @product.image_url %>
-                    <div >
-                      <div class="container">
-                        <div class="row">
+  </div>
 
-                          <div class="col-md-3">
+  <div class="ratings">
+      <p class="pull-right">3 reviews</p>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star-empty"></span>
+          4.0 stars
+      </p>
 
-                <h4>$24.99</h4>
-                    </div>
-
-                <div class="col-md-9">
-
-                </div>
-                        <h4><%= @product.name %></h4>
-
-                        </div>
-                      </div>
-                        <p><%= @product.description %></p>
-
-                    </div>
-                    <div class="ratings">
-                        <p class="pull-right">3 reviews</p>
-                        <p>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            4.0 stars
-                        </p>
-                    </div>
+  </div>
 </div>
 
 <%= link_to "Back", products_path, class: "btn btn-default" %>
