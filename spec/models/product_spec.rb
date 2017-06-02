@@ -19,7 +19,20 @@ RSpec.describe Product, type: :model do
         product.valid?
         expect(product.errors).to have_key(:price)
      end
-
-
    end
+
+   describe "association with order_item" do
+  let(:product) { create :product }
+  let(:order) { create :order }
+  let!(:order_item) { create :order_item, product: product, order: order }
+
+
+  it "has many order_items" do
+    order_item1 = product.order_items.new(quantity: 10)
+    order_item2 = product.order_items.new(quantity: 12)
+
+    expect(product.order_items).to include(order_item1)
+    expect(product.order_items).to include(order_item2)
+  end
+end
 end
