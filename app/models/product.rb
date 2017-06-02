@@ -4,7 +4,15 @@ class Product < ApplicationRecord
   validates :name, presence: true
   validates :price, :stock, presence: true, numericality: { greater_than_or_equal_to: 0 }
 
-  def self.search(search)
-    where("name LIKE ? OR description LIKE ?", "%#{search}%", "%#{search}%") 
+
+
+
+  def self.search_product(search)
+    if search
+      where("name LIKE ?", "%#{search.upcase}%")
+    else
+      all
+    end
   end
+
 end
