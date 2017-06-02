@@ -14,7 +14,7 @@
        <div class="caption">
          <div class="product-name"><%= product.name %></h4>
        </div>
-       <h5>&euro;<%= product.price %></h5>
+       <h5>&euro; <%= sprintf('%.2f', product.price) %></h5>
 
         <!-- Add back in later as a partial description -->
         <!-- <p><%= product.description %></p> -->
