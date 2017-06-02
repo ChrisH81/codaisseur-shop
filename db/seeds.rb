@@ -9,6 +9,8 @@
 
 adminuser = Admin.create!(email: "admin@admin.com", password: "password")
 
+puts "Admin created"
+
 # ElectricGuitars
 product1 = ElectricGuitar.create!(
   name: "GIBSON JOE BONAMASSA BONABYRD ELECTRIC GUITAR - ANTIQUE PELHAM BLUE",
