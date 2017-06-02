@@ -1,3 +1,87 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.product-bg {
+  background-image: url('http://www.commentnation.com/backgrounds/images/black_upholstery_fabric_texture_background_seamless.jpg');
+}
+
+.product-bg::after {
+  content: "";
+  background-color: white;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.index-bg {
+  background-image: url('http://www.mcdapictures.com/images/minimalistic_dark_grey_texture_2560x1600_wallpaperhicom.jpg');
+}
+
+.index-bg::after {
+  background-size:contain;
+  content: "";
+  background-image: url('http://i.imgur.com/XVucsri.jpg');
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.product-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  padding: (0, 15, 0, 15);
+  margin: (0, 0, 20, 0);
+}
+
+.thumbnail {
+  background-color: rgba(250,250,250,0.5);
+  min-height: 500px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.product-img-index {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-name {
+  font-family: 'Racing Sans One', cursive;
+  color: Black;
+  font-size: 18px;
+}
+
+.product-img-show img {
+  max-height: 800px;
+  max-width: 800px;
+}
+
+.product-img-index img {
+  max-height: 300px;
+  max-width: 300px;
+}
