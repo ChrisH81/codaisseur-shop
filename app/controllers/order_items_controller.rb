@@ -1,6 +1,6 @@
 class OrderItemsController < ApplicationController
   before_action :set_order, only: %i[create destroy]
-  before_action :set_order_item, only: [:destroy]
+  before_action :set_order_item, only: %i[update destroy]
 
   def create
     @order.add_product(order_item_params)
@@ -11,6 +11,11 @@ class OrderItemsController < ApplicationController
       flash[:error] = 'There was a problem adding this item to your cart.'
       redirect_to request.referer
     end
+  end
+
+  def update
+    @order_item.update(params.require(:order_item).permit(:quantity))
+    redirect_to request.referer
   end
 
   def destroy
