@@ -1,0 +1,47 @@
+// font-family: 'Coda', cursive;
+// font-family: 'Cherry Swash', cursive;
+// font-family: 'Corben', cursive;
+// font-family: 'Sonsie One', cursive;
+// font-family: 'Cinzel', serif;
+// font-family: 'Racing Sans One', cursive;
+// font-family: 'Oleo Script Swash Caps', cursive;
+
+.show img {
+  max-height:650px;
+  width: auto;
+}
+
+.show-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.show-top-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.show-top-right {
+  font-family: 'Coda', cursive;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  max-width: 400px;
+}
+
+.product-show-container {
+  margin-top: 20px;
+}
+
+.description {
+  font-family: 'Cinzel', serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
