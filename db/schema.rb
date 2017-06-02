@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20170601140900) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "acoustic_guitars", force: :cascade do |t|
+  create_table "accoustic_guitars", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
