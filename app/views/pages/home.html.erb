@@ -5,14 +5,17 @@
         <div class="category-tile">
           <div class="cat-tile-title">Electric Guitars</div>
           <div class="tile-body">
-            <img src="http://esq.h-cdn.co/assets/cm/15/06/54d1dcc12bb55_-_aficionado-5rykxg-cover.jpg">
+            <%= link_to electric_guitars_path do %>
+            <%= image_tag "http://esq.h-cdn.co/assets/cm/15/06/54d1dcc12bb55_-_aficionado-5rykxg-cover.jpg" %>
+            <% end %>
+            <!-- <img src="http://esq.h-cdn.co/assets/cm/15/06/54d1dcc12bb55_-_aficionado-5rykxg-cover.jpg"> -->
           </div>
         </div>
         <div class="category-tile">
           <div class="cat-tile-title">Acoustic Guitars</div>
           <div class="tile-body">
-            <%= link_to acuoustic_guitars_path do %>
-               <%= image_tag "https://www.yamahamusiclondon.com/sites/ymlv5.19/productimages/900x900/YAM-APX500III-SUPER.jpg" %>
+            <%= link_to acoustic_guitars_path do %>
+            <%= image_tag "https://www.yamahamusiclondon.com/sites/ymlv5.19/productimages/900x900/YAM-APX500III-SUPER.jpg" %>
             <% end %>
             <!-- <img src="https://www.yamahamusiclondon.com/sites/ymlv5.19/productimages/900x900/YAM-APX500III-SUPER.jpg"> -->
           </div>
@@ -25,13 +28,19 @@
             <div class="category-tile">
               <div class="cat-tile-title">Amplifiers</div>
               <div class="tile-body">
-                <img src="https://heavyeditorial.files.wordpress.com/2016/08/smallcombos.jpg?quality=65&strip=all&strip=all">
+                <%= link_to amplifiers_path do %>
+                <%= image_tag "https://heavyeditorial.files.wordpress.com/2016/08/smallcombos.jpg?quality=65&strip=all&strip=all" %>
+                <% end %>
+                <!-- <img src="https://heavyeditorial.files.wordpress.com/2016/08/smallcombos.jpg?quality=65&strip=all&strip=all"> -->
               </div>
             </div>
             <div class="category-tile">
               <div class="cat-tile-title">Pedals</div>
               <div class="tile-body">
-                <img src="https://heavyeditorial.files.wordpress.com/2016/06/distortion1.jpg?quality=65&strip=all">
+                <%= link_to pedals_path do %>
+                <%= image_tag "https://heavyeditorial.files.wordpress.com/2016/06/distortion1.jpg?quality=65&strip=all" %>
+                <% end %>
+                <!-- <img src="https://heavyeditorial.files.wordpress.com/2016/06/distortion1.jpg?quality=65&strip=all"> -->
               </div>
             </div>
           </div>
@@ -42,7 +51,10 @@
                 <div class="category-tile">
                   <div class="cat-tile-title">Guitar Cases</div>
                   <div class="tile-body">
-                    <img src="http://images.epiphone.com.s3.amazonaws.com/Site-Images/New-Features/caseheader.jpg">
+                    <%= link_to guitar_cases_path do %>
+                    <%= image_tag "http://images.epiphone.com.s3.amazonaws.com/Site-Images/New-Features/caseheader.jpg" %>
+                    <% end %>
+                    <!-- <img src="http://images.epiphone.com.s3.amazonaws.com/Site-Images/New-Features/caseheader.jpg"> -->
                   </div>
                 </div>
                 <div class="category-tile">

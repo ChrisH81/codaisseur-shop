@@ -1,4 +1,3 @@
-
 <% if @products.blank? %>
   <br><br><br><br><h4 class="error">There are no products containing the term <%= params[:search] %>.</h4>
 <% end %>
@@ -17,14 +16,15 @@
        </div>
        <h5>&euro;<%= product.price %></h5>
 
-       <!-- Add back in later as a partial description -->
-       <!-- <p><%= product.description %></p> -->
-       <div class="button-container">
-         <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
-       </div>
-     </div>
-   </div>
- </div>
- <% end %>
+        <!-- Add back in later as a partial description -->
+        <!-- <p><%= product.description %></p> -->
+        <div class="button-container">
+          <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% end %>
+
 </div>
 </body>
