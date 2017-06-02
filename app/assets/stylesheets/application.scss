@@ -28,6 +28,22 @@ body {
   min-height: 100%;
   margin-bottom: 140px;
 }
+.devise-bg {
+  background-image: url('http://www.mcdapictures.com/images/minimalistic_dark_grey_texture_2560x1600_wallpaperhicom.jpg');
+}
+
+.devise-bg::after {
+  background-size: cover;
+  content: "";
+  background-image: url('http://i.imgur.com/R1Hf4tO.jpg');
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
 .standard-bg {
   background-color: white;
@@ -41,7 +57,6 @@ body {
 .front-page-bg::after {
   background-size: cover;
   content: "";
-  // background-image: url('http://truefire.com/blog/wp-content/uploads/2014/11/guitar-buying.jpg');
   background-image: url('http://i.imgur.com/0xiTPXu.jpg');
   opacity: 0.6;
   top: 0;
