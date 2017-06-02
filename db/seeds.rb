@@ -9,12 +9,16 @@
 
 adminuser = Admin.create!(email: "admin@admin.com", password: "password")
 
+
+puts "Admin created"
+
 eg = Category.create!(name: "Electric Guitar")
 ag = Category.create!(name: 'Acoustic Guitar')
 ped = Category.create!(name: 'Pedal')
 amp = Category.create!(name: 'Amplifier')
 str = Category.create!(name: 'Strings')
 cas = Category.create!(name: 'Case')
+
 
 # ElectricGuitars
 product1 = ElectricGuitar.create!(

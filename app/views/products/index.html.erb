@@ -11,20 +11,6 @@
           <div class="product-name"><%= product.name %></h4>
         </div>
         <h5>&euro;<%= product.price %></h5>
-
-        <!-- Add back in later as a partial description -->
-        <!-- <p><%= product.description %></p> -->
-        <div class="button-container">
-          <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <% end %>
-</div>
-</body>
-
-<!--
 <div class="product">
   <% @products.each do |product| %>
     <div class="col-sm-6 col-md-4">
