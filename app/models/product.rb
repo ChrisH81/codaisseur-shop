@@ -6,6 +6,7 @@ class Product < ApplicationRecord
 
 
 
+
   def self.search_product(search)
     if search
       where("name LIKE ?", "%#{search.upcase}%")
@@ -13,6 +14,5 @@ class Product < ApplicationRecord
       all
     end
   end
-
 
 end
