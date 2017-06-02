@@ -9,7 +9,16 @@
 
 adminuser = Admin.create!(email: "admin@admin.com", password: "password")
 
+
 puts "Admin created"
+
+eg = Category.create!(name: "Electric Guitar")
+ag = Category.create!(name: 'Acoustic Guitar')
+ped = Category.create!(name: 'Pedal')
+amp = Category.create!(name: 'Amplifier')
+str = Category.create!(name: 'Strings')
+cas = Category.create!(name: 'Case')
+
 
 # ElectricGuitars
 product1 = ElectricGuitar.create!(
@@ -36,6 +45,7 @@ product1 = ElectricGuitar.create!(
 
   Only 100 of these epic guitars have been produced and the Gibson Joe Bonamassa Bonabyrd is definitely an instrument you will want to treasure for life. Each guitar has been hand signed by Joe himself and comes complete with a certificate of authenticity and custom shop silkscreened hardcase. This is truly a thing of beauty.",
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/l/p/lpjbbbsapbnh1_front.jpg",
+  category_id: eg.id
   )
 
 product2 = ElectricGuitar.create!(
@@ -65,9 +75,11 @@ product2 = ElectricGuitar.create!(
   To complete the package and ensure your new pride and joy is protected at home or on the move, each guitar comes with its very own reissue Les Paul brown hardshell case with pink fur lining. Each model is also supplied with a certificate of authenticity in accompanying binder, and extra black plastic treble/rhythm switch cover plate.",
 
   image_url: "http://www.dawsons.co.uk/media/catalog/product/cache/1/image/1200x/6b9ffbf72458f4fd2d3cb995d92e8889/g/i/gibson_2016_cs_1959_les_paul_standard_historic_-_iced_tea_-_main_1.jpg",
+  category_id: eg.id
   )
 
 product3 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 CS 1959 LES PAUL STANDARD HISTORIC GUITAR - WASHED CHERRY",
   price: 4_299.00,
   stock: 50,
@@ -96,6 +108,7 @@ To complete the package and ensure your new pride and joy is protected at home o
 )
 
 product4 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 STANDARD HISTORIC 1958 LES PAUL - FADED TOBACCO",
   price: 3_799.00,
   stock: 50,
@@ -130,6 +143,7 @@ It is without doubt that the new range of 2016 Standard Historic 1958 Les Paul S
 )
 
 product5 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 STANDARD HISTORIC 1958 LES PAUL - WASHED CHERRY",
   price: 3_799.00,
   stock: 50,
@@ -164,6 +178,7 @@ It is without doubt that the new range of 2016 Standard Historic 1958 Les Paul S
 )
 
 product6 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON MEMPHIS LIMITED EDITION ES-335 ELECTRIC GUITAR - GOLD TOP",
   price: 3_299.00,
   stock: 50,
@@ -194,6 +209,7 @@ The Gibson Memphis Limited Edition ES-335 Electric Guitar with Gold Top is suppl
 )
 
 product7 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 CS LES PAUL AXCESS STOPBAR ELECTRIC GUITAR - ALPINE WHITE",
   price: 3_199.00,
   stock: 50,
@@ -224,6 +240,7 @@ The 2016 CS Les Paul Axcess includes a black LP Custom hard case for added prote
 )
 
 product8 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 CS LES PAUL AXCESS STOPBAR ELECTRIC GUITAR - EBONY",
   price: 3_199.00,
   stock: 50,
@@ -254,6 +271,7 @@ The 2016 CS Les Paul Axcess includes a black LP Custom hard case for added prote
 )
 
 product9 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON MEMPHIS 2016 1964 ES-345 VOS NH1 ELECTRIC GUITAR - FROST BLUE",
   price: 3_199.00,
   stock: 50,
@@ -280,6 +298,7 @@ Gibson have fitted a No Wire ABR bridge with a lightweight stop bar tailpiece to
 )
 
 product10 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON MEMPHIS 2016 1964 ES-345 VOS NH1 ELECTRIC GUITAR - SEAFOAM GREEN",
   price: 3_199.00,
   stock: 50,
@@ -306,6 +325,7 @@ Gibson have fitted a No Wire ABR bridge with a lightweight stop bar tailpiece to
 )
 
 product11 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "IBANEZ JEM777 30TH ANNIVERSARY EDITION ELECTRIC GUITAR - DESERT SUN YELLOW",
   price: 3_049.00,
   stock: 50,
@@ -336,6 +356,7 @@ For protection on the go, a specially designed hardshell case is included to pro
 )
 
 product12 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "IBANEZ JEM777 30TH ANNIVERSARY EDITION ELECTRIC GUITAR - SHOCKING PINK",
   price: 3_049.00,
   stock: 50,
@@ -366,6 +387,7 @@ For protection on the go, a specially designed hardshell case is included to pro
 )
 
 product13 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 1958 ES-335 VOS ELECTRIC GUITAR - 58 BURST",
   price: 2_999.00,
   stock: 50,
@@ -398,6 +420,7 @@ Needless to say, the 2016 model of the 1958 ES-335 V.O.S. electric guitar is a h
 )
 
 product14 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON BRIAN RAY SG STANDARD BIGSBY ELECTRIC GUITAR - SILVER FOX",
   price: 2_699.00,
   stock: 50,
@@ -428,6 +451,7 @@ The Brian Ray SG Standard Bigsby has been given a wet sanded, Nitrocellulose lac
 )
 
 product15 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 ES-335 ELECTRIC GUITAR - PELHAM BLUE",
   price: 2_699.00,
   stock: 50,
@@ -462,6 +486,7 @@ The Gibson 2016 ES-335 Electric Guitar comes in a luxurious Faded Lightburst fin
 )
 
 product16 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL STANDARD HP GUITAR - BOURBON BURST",
   price: 2_699.00,
   stock: 50,
@@ -497,6 +522,7 @@ The Gibson 2017 Les Paul Standard HP Electric Guitar is supplied with its very o
 )
 
 product17 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 ES-335 FIGURED ELECTRIC GUITAR - CHERRY",
   price: 2_499.00,
   stock: 50,
@@ -531,6 +557,7 @@ This wonderfully eye-catching ES-355 Figured guitar has a lustrous, high gloss C
 )
 
 product18 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL STANDARD HP GUITAR - BLUEBERRY BURST",
   price: 2_699.00,
   stock: 50,
@@ -566,6 +593,7 @@ The Gibson 2017 Les Paul Standard HP Electric Guitar is supplied with its very o
 )
 
 product19 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON MEMPHIS 2016 ES-335 FIGURED ELECTRIC GUITAR - TURQUOISE",
   price: 2_699.00,
   stock: 50,
@@ -600,6 +628,7 @@ This wonderfully eye-catching ES-355 Figured guitar has a lustrous, high gloss T
 )
 
 product20 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON MEMPHIS '59 ES-330 TAMIO OKUDA SIGNATURE GUITAR - CLASSIC WHITE",
   price: 2_599.00,
   stock: 50,
@@ -632,6 +661,7 @@ To complete this awesome package, the Gibson Memphis 1959 ES-330 Tamio Okuda Sig
 )
 
 product21 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "MUSIC MAN JAMES VALENTINE ELECTRIC GUITAR - SATIN NATURAL",
   price: 2_449.00,
   stock: 50,
@@ -664,6 +694,7 @@ The Music Man James Valentine Signature Guitar has been designed with attention 
 )
 
 product22 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 LES PAUL STANDARD FIGURED WALNUT LIMITED RUN - NATURAL",
   price: 2_399.00,
   stock: 50,
@@ -694,6 +725,7 @@ To preserve your new pride and joy at home or on the move, Gibson has included a
 )
 
 product23 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 ES-275 ARCHTOP GUITAR - FADED CHERRY",
   price: 2_399.00,
   stock: 50,
@@ -724,6 +756,7 @@ A protective full-gloss sheen lacquer finish keeps the body looking opulent over
 )
 
 product24 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 ES-335 ELECTRIC GUITAR - CHERRY",
   price: 2_299.00,
   stock: 50,
@@ -758,6 +791,7 @@ The Gibson 2016 ES-335 Electric Guitar comes in a luxurious Cherry finish which 
 )
 
 product25 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL TRADITIONAL HP GUITAR - ANTIQUE BURST",
   price: 2_299.00,
   stock: 50,
@@ -797,6 +831,7 @@ The Gibson 2017 Les Paul Traditional HP Electric Guitar is supplied with its ver
 )
 
 product26 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL STANDARD T GUITAR - BOURBON BURST",
   price: 2_299.00,
   stock: 50,
@@ -832,6 +867,7 @@ The Gibson 2017 Les Paul Standard T Electric Guitar is supplied with its very ow
 )
 
 product27 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL STANDARD T GUITAR - BLUEBERRY BURST",
   price: 2_299.00,
   stock: 50,
@@ -867,6 +903,7 @@ The Gibson 2017 Les Paul Standard T Electric Guitar is supplied with its very ow
 )
 
 product28 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL STANDARD HP GUITAR - HERITAGE CHERRY SUNBURST",
   price: 2_199.00,
   stock: 50,
@@ -902,6 +939,7 @@ The Gibson 2017 Les Paul Standard HP Electric Guitar is supplied with its very o
 )
 
 product29 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL STANDARD HP GUITAR - HONEY BURST",
   price: 2_199.00,
   stock: 50,
@@ -937,6 +975,7 @@ The Gibson 2017 Les Paul Standard HP Electric Guitar is supplied with its very o
 )
 
 product30 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "IBANEZ JS2450 MCP JOE SATRIANI SIGNATURE ELECTRIC GUITAR",
   price: 2_169.00,
   stock: 50,
@@ -963,6 +1002,7 @@ All-in-all, every aspect of this superb guitar has had love and pride poured int
 )
 
 product31 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2017 LES PAUL CLASSIC HP GUITAR - HERITAGE CHERRY SUNBURST",
   price: 1_999.00,
   stock: 50,
@@ -1001,6 +1041,7 @@ Each Gibson 2017 Les Paul Classic HP Electric Guitar model is supplied with a cl
 )
 
 product32 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "MUSIC MAN SILHOUETTE HSH MN TREM GUITAR - BLACK",
   price: 1_949.00,
   stock: 50,
@@ -1033,6 +1074,7 @@ The sleek black finish of the Silhouette body is complemented by a matching blac
 )
 
 product33 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 ES-339 ELECTRIC GUITAR - FADED CHERRY",
   price: 1_905.00,
   stock: 50,
@@ -1067,6 +1109,7 @@ With a warm and elegant Sunset Burst finish, the Gibson 2016 ES-339 is alluring 
 )
 
 product34 = ElectricGuitar.create!(
+  category_id: eg.id,
   name: "GIBSON 2016 ES-335 SATIN ELECTRIC GUITAR - FADED CHERRY",
   price: 1_899.00,
   stock: 50,
@@ -1101,6 +1144,7 @@ The Gibson 2016 ES-335 Electric Guitar comes in a lavish, soft Satin Faded Cherr
 )
 
 product35 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "GIBSON 2017 SJ-200 VINTAGE ACOUSTIC GUITAR - VINTAGE SUNBURST",
   price: 4_499.00,
   stock: 50,
@@ -1127,6 +1171,7 @@ In order to keep the SJ-200 Vintage in the best possible condition, Gibson inclu
 )
 
 product36 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "TAYLOR K24CE ELECTRO ACOUSTIC GUITAR - NATURAL",
   price: 4_199.00,
   stock: 50,
@@ -1149,6 +1194,7 @@ Through their research Taylor found that the best place for a pickup is behind, 
 )
 
 product37 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "TAYLOR K22CE GRAND CONCERT ELECTRO ACOUSTIC GUITAR - NATURAL",
   price: 4_199.00,
   stock: 50,
@@ -1175,6 +1221,7 @@ The Taylor K22ce Grand Concert Electro Acoustic Guitar in natural finish isn’t
 )
 
 product39 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "TAYLOR 812CE 12 FRET ELECTRO ACOUSTIC GUITAR - NATURAL",
   price: 3_399.00,
   stock: 50,
@@ -1195,6 +1242,7 @@ Because the, 812ce 12 Fret Electro Acoustic is a guitar you are going to want to
 )
 
 product40 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "GIBSON ACOUSTIC HUMMINGBIRD VINTAGE GUITAR - VINTAGE CHERRY SUNBURST",
   price: 3_299.00,
   stock: 50,
@@ -1223,6 +1271,7 @@ The Gibson Acoustic 2017 Hummingbird Vintage Acoustic Guitar in Vintage Cherry S
 )
 
 product41 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "TAYLOR 810CE ELECTRO ACOUSTIC GUITAR - NATURAL",
   price: 3_249.00,
   stock: 50,
@@ -1237,6 +1286,7 @@ The on-board Taylor Expression System is a pickup and preamp combo said to outpu
 )
 
 product42 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "GIBSON 2017 L-00 VINTAGE ACOUSTIC GUITAR - VINTAGE SUNBURST",
   price: 3_199.00,
   stock: 50,
@@ -1261,6 +1311,7 @@ The new L-00 Vintage comes with a black hardshell Gibson guitar case, as well as
 )
 
 product43 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "TAYLOR 610CE ELECTRO ACOUSTIC GUITAR - NATURAL",
   price: 3_099.00,
   stock: 50,
@@ -1289,6 +1340,7 @@ The Taylor 610ce is completed with some gorgeous finishing touches to complete t
 )
 
 product44 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "GIBSON 1932 L-00 REISSUE ACOUSTIC GUITAR - VINTAGE SUNBURST",
   price: 2_999.00,
   stock: 50,
@@ -1317,6 +1369,7 @@ The Gibson 1932 L-00 Reissue Acoustic Guitar in Vintage Sunburst is a loving tri
 )
 
 product45 = AcousticGuitar.create!(
+  category_id: ag.id,
   name: "TAYLOR 618E ELECTRO ACOUSTIC GUITAR - NATURAL",
   price: 2_899.00,
   stock: 50,
@@ -1347,6 +1400,7 @@ Taylor include a Deluxe Hardshell case in Brown to shield the guitar when in sto
 )
 
 product46 = GuitarCase.create!(
+  category_id: cas.id,
   name: "GRETSCH G6241FT 16” HOLLOWBODY GUITAR CASE",
   price: 177.00,
   stock: 50,
@@ -1359,6 +1413,7 @@ The outer case is lined with black tolex - an industry standard material that ha
 )
 
 product48 = GuitarCase.create!(
+  category_id: cas.id,
   name: "HISCOX LITEFLITE STANDARD CLASSICAL GUITAR CASE",
   price: 99.00,
   stock: 50,
@@ -1367,6 +1422,7 @@ product48 = GuitarCase.create!(
 )
 
 product50 = GuitarCase.create!(
+  category_id: cas.id,
   name: "EPIPHONE NEW CENTURY OLYMPIC MASTERBILT HARD CASE",
   price: 99.00,
   stock: 50,
@@ -1379,6 +1435,7 @@ As with your Olympic, the Epiphone New Century Olympic Masterbilt Hard Case is b
 )
 
 product51 = GuitarCase.create!(
+  category_id: cas.id,
   name: "EPIPHONE WILDKAT HARDSHELL ELECTRIC GUITAR CASE",
   price: 86.00,
   stock: 50,
@@ -1397,6 +1454,7 @@ The famous Epiphone logo is printed on the outside of the case in gold, adding t
 )
 
 product52 = GuitarCase.create!(
+  category_id: cas.id,
   name: "EPIPHONE EMPEROR HARDSHELL GUITAR CASE",
   price: 86.00,
   stock: 50,
@@ -1411,6 +1469,7 @@ The case has a plush lining interior, which prevents unwanted scratches or abras
 )
 
 product53 = GuitarCase.create!(
+  category_id: cas.id,
   name: "EPIPHONE ED50 F STYLE MANDOLIN HARD CASE",
   price: 68.00,
   stock: 50,
@@ -1421,6 +1480,7 @@ It has a strong, durable construction and a plush, soft interior which your mand
 )
 
 product54 = GuitarCase.create!(
+  category_id: cas.id,
   name: "STAGG GOLD TWEED BARITONE UKULELE HARD CASE",
   price: 64.99,
   stock: 50,
@@ -1437,6 +1497,7 @@ Because a Ukulele should never travel alone, the Stagg Gold Tweed Baritone Ukule
 )
 
 product55 = StringSet.create!(
+  category_id: str.id,
   name: "D'ADDARIO EXL170SL NICKEL WOUND BASS STRINGS, LIGHT, SUPER LONG SCALE",
   price: 24.99,
   stock: 50,
@@ -1447,6 +1508,7 @@ D'Addario XL Nickel Wound Electric Bass strings are world-renowned as The Player
 )
 
 product56 = StringSet.create!(
+  category_id: str.id,
   name: "D'ADDARIO NYXL1046 ELECTRIC GUITAR STRINGS, REGULAR LIGHT, 10-46",
   price: 12.99,
   stock: 50,
@@ -1457,6 +1519,7 @@ NYXLs provide more strength and 131% greater tuning stability by utilizing a com
 )
 
 product57 = StringSet.create!(
+  category_id: str.id,
   name: "ERNIE BALL POWER SLINKY ELECTRIC STRINGS 11-48",
   price: 6.49,
   stock: 50,
@@ -1465,6 +1528,7 @@ product57 = StringSet.create!(
 )
 
 product58 = StringSet.create!(
+  category_id: str.id,
   name: "D'ADDARIO EXP38 COATED PHOSPHOR BRONZE 12-STRING, LIGHT, 10-47",
   price: 23.99,
   stock: 50,
@@ -1475,6 +1539,7 @@ D'Addario EXPs are the most natural-sounding, longest-lasting coated strings ava
 )
 
 product59 = StringSet.create!(
+  category_id: str.id,
   name: "MARTIN M530 PHOSPHOR BRONZE ACOUSTIC GUITAR STRINGS",
   price: 7.99,
   stock: 50,
@@ -1483,6 +1548,7 @@ product59 = StringSet.create!(
 )
 
 product60 = Pedal.create!(
+  category_id: ped.id,
   name: "BOSS RC-3 LOOP STATION",
   price: 125.00,
   stock: 50,
@@ -1505,6 +1571,7 @@ There is also an aux in on the RC-3, so rather than just recording instruments d
 )
 
 product61 = Pedal.create!(
+  category_id: ped.id,
   name: "BOSS VO-1 COMPACT VOCODER EFFECTS PEDAL",
   price: 209.00,
   stock: 50,
@@ -1523,6 +1590,7 @@ The Boss VO-1 Vocoder is built using state-of-the-art technology but by no means
 )
 
 product62 = Pedal.create!(
+  category_id: ped.id,
   name: "BOSS DD-7 DIGITAL DELAY COMPACT GUITAR EFFECTS PEDAL",
   price: 135.00,
   stock: 50,
@@ -1545,6 +1613,7 @@ Whether you’re just starting out on your musical journey, or have many years o
 )
 
 product63 = Pedal.create!(
+  category_id: ped.id,
   name: "BOSS RV-6 REVERB GUITAR EFFECTS PEDAL",
   price: 129.00,
   stock: 50,
@@ -1569,6 +1638,7 @@ The Boss RV-6 Reverb Pedal gives you the best digital reverbs available today al
 )
 
 product64 = Pedal.create!(
+  category_id: ped.id,
   name: "BOSS BD-2 BLUES DRIVER COMPACT ELECTRIC GUITAR PEDAL",
   price: 79.00,
   stock: 50,
@@ -1585,6 +1655,7 @@ Whether you're picking up the guitar for the first time ever, or regularly tour 
 )
 
 product65 = Amplifier.create!(
+  category_id: amp.id,
   name: "ORANGE AD30TC TWIN CHANNEL GUITAR AMPLIFIER",
   price: 1_379.00,
   stock: 50,
@@ -1603,6 +1674,7 @@ This is all provided by the Orange AD30HTC Head Amp’s collection of four ECC83
 )
 
 product66 = Amplifier.create!(
+  category_id: amp.id,
   name: "FENDER '68 CUSTOM DELUXE REVERB COMBO GUITAR AMPLIFIER",
   price: 1_112.00,
   stock: 50,
@@ -1619,6 +1691,7 @@ The '68 Custom Deluxe Reverb resurrects a classic amp that has been adored and c
 )
 
 product67 = Amplifier.create!(
+  category_id: amp.id,
   name: "FENDER BASSBREAKER 45 GUITAR COMBO AMPLIFIER",
   price: 911.00,
   stock: 50,
@@ -1639,6 +1712,7 @@ For hard giggers that need customisation, power and reliability, the Fender Bass
 )
 
 product68 = Amplifier.create!(
+  category_id: amp.id,
   name: "FENDER HOT ROD DEVILLE 212III 60 WATTS 2X12",
   price: 911.00,
   stock: 50,
@@ -1657,6 +1731,7 @@ Fender have been at the top of their game for decades and the Fender Hot Rod DeV
 )
 
 product69 = Amplifier.create!(
+  category_id: amp.id,
   name: "MARSHALL DSL15C GUITAR AMPLIFIER",
   price: 569.00,
   stock: 50,
@@ -1681,6 +1756,7 @@ All-in-all, the Marshall DSL15C Guitar Amplifier Combo is an excellent amplifier
 )
 
 product70 = Amplifier.create!(
+  category_id: amp.id,
   name: "LINE 6 SPIDER V 240 WATT 2 X 12 GUITAR COMBO AMP",
   price: 468.00,
   stock: 50,

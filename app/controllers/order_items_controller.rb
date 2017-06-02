@@ -6,16 +6,16 @@ class OrderItemsController < ApplicationController
     @order.add_product(order_item_params)
 
     if @order.save
-      redirect_to products_path, notice: 'Item successfully added'
+      redirect_to request.referer, notice: 'Item successfully added'
     else
       flash[:error] = 'There was a problem adding this item to your cart.'
-      redirect_to products_path
+      redirect_to request.referer
     end
   end
 
   def destroy
     @order_item.destroy
-    redirect_to order_path
+    redirect_to request.referer
   end
 
   private
