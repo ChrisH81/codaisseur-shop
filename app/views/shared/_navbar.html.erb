@@ -11,7 +11,6 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-
         <% if !user_signed_in? %>
         <li><%= link_to "Log In", new_user_session_path %></li>
         <li><%= link_to "Sign Up", new_user_registration_path %></li>
@@ -20,7 +19,6 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.email %>
             <span class="caret"></span>
           </a>
-
           <ul class="dropdown-menu">
             <li role="separator" class="divider"></li>
             <% if current_user.has_profile? %>
@@ -33,6 +31,13 @@
           </ul>
         </li>
         <% end %>
+        <li><a href="../orders/show" id="cart"><i class="fa fa-shopping-cart"></i> Cart <div id="circle" class="circle">
+            <div id="no_items" style="color:white"><%= @order.order_items.sum(:quantity) %></div>
+        </div></a></li>
+        <!-- <%= form_tag(products_path, :method => "get", id: "search-form") do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Products" %>
+    <%= submit_tag "Search", :name => nil %> -->
+  <% end %>
       </ul>
     </div>
   </div>

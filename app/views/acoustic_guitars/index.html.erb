@@ -1,3 +1,17 @@
-<% @acoustic_guitars.each do |ag| %>
-<p><%= ag.name %></p>
-<% end %>
+<div class="product">
+  <% @acoustic_guitars.each do |ag| %>
+    <div class="col-sm-6 col-md-4">
+
+      <div class="thumbnail">
+      <div class="product-img-index"><%= image_tag ag.image_url, :size => "260x180" %></div>
+        <div class="caption">
+            <div class="product-name"><%= ag.name %></h4></div>
+            <h5><%= ag.price %></h5>
+            <!-- <p><%= product.description %></p> -->
+            <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+</div>

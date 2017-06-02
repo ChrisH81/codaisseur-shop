@@ -1,4 +1,6 @@
-
+<% if @products.blank? %>
+  <br><br><br><br><h4>There are no products containing the term <%= params[:search] %>.</h4>
+<% end %>
 
 <div class="product">
   <% @products.each do |product| %>
