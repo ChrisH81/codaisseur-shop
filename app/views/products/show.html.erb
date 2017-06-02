@@ -3,12 +3,12 @@
     <div class="thumbnail show">
       <div class="show-top">
 
-<!--
-<div class="thumbnail">
-  <%= image_tag @product.image_url, :class => 'magniflier', :size => '500x400'%>
-  <div > -->
 
-    <!-- <div class="container">
+<!-- <div class="thumbnail">
+  <%= image_tag @product.image_url, :class => 'magniflier', :size => '500x400'%>
+  <div >
+
+     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <h4><%= @product.price %></h4> -->
@@ -20,15 +20,16 @@
         <div class="show-top-right">
           <div class="container">
             <div class="row">
-              <h4><%= @product.name %></h4>
-              <h4>&euro;
-                <%= @product.price %></h4>
+              <br>
+              <h4 class="product-details"><%= @product.name %></h4>
+              <h4 class="product-details">&euro;
+                <%= sprintf('%.2f', @product.price) %></h4>
 
             </div>
           </div>
           <%= form_for @order_item do |f| %>
           <div class="input-group">
-            <%= f.number_field :quantity, value: 1, class: "form-control", min: 1 %>
+            <%= f.number_field :quantity, value: 1, class: "form-control buy-button", min: 1 %>
             <div class="input-group-btn">
               <%= f.hidden_field :product_id, value: @product.id %>
               <%= f.submit "Add to Cart", class: "btn btn-primary" %>
@@ -36,18 +37,18 @@
           </div>
           <% end %>
           <div class="ratings">
-            <p class="pull-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 reviews</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            4.0 stars
+            <p class="pull-right product-details">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 reviews</p>
+            <span class="glyphicon glyphicon-star", style="color: gold"></span>
+            <span class="glyphicon glyphicon-star", style="color: gold" ></span>
+            <span class="glyphicon glyphicon-star", style="color: gold"></span>
+            <span class="glyphicon glyphicon-star", style="color: gold"></span>
+            <span class="glyphicon glyphicon-star-empty", style="color: gold"></span>
+            <span class="product-details">4.0 stars</span>
           </p>
         </div>
       </div>
     </div>
-    <div class="description">
+    <div class="product-details", style="margin: 0px 50px 0px 50px">
       <p><%= @product.description %></p>
 
        <!-- <%= form_for @order_item do |f| %>
