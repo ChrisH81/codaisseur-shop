@@ -28,8 +28,15 @@
             <h5><%= product.price %></h5>
             <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
 
+
+        <!-- Add back in later as a partial description -->
+        <!-- <p><%= product.description %></p> -->
+        <div class="button-container">
+          <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
         </div>
       </div>
     </div>
+  </div>
   <% end %>
-</div> -->
+</div>
+</body>
