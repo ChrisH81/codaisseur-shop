@@ -1,17 +1,37 @@
-<div class="product">
-  <% @acoustic_guitars.each do |ag| %>
+<body class="product-bg">
+  <div class="product-body">
+    <% @acoustic_guitars.each do |product| %>
     <div class="col-sm-6 col-md-4">
 
       <div class="thumbnail">
-      <div class="product-img-index"><%= image_tag ag.image_url, :size => "260x180" %></div>
+        <div class="img-container">
+          <div class="product-img-index"><%= image_tag product.image_url%></div>
+        </div>
         <div class="caption">
-            <div class="product-name"><%= ag.name %></h4></div>
-            <h5><%= ag.price %></h5>
-            <!-- <p><%= product.description %></p> -->
+          <div class="product-name"><%= product.name %></h4>
+        </div>
+        <h5>&euro;<%= product.price %></h5>
+
+<div class="product">
+  <% @products.each do |product| %>
+    <div class="col-sm-6 col-md-4">
+
+      <div class="thumbnail">
+      <div class="product-img-index"><%= image_tag product.image_url, :size => "260x180" %></div>
+        <div class="caption">
+            <div class="product-name"><%= product.name %></h4></div>
+            <h5><%= product.price %></h5>
             <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
+
+
+        <!-- Add back in later as a partial description -->
+        <!-- <p><%= product.description %></p> -->
+        <div class="button-container">
+          <p><%= link_to "view", product_path(product.id), class: "btn btn-primary" %></p>
         </div>
       </div>
     </div>
+  </div>
   <% end %>
-
 </div>
+</body>
