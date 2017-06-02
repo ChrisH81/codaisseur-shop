@@ -1,6 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+@import "footer";
+@import "devise";
+@import "home";
+@import "navbar";
 
 // font-family: 'Coda', cursive;
 // font-family: 'Cherry Swash', cursive;
@@ -9,104 +12,20 @@
 // font-family: 'Cinzel', serif;
 // font-family: 'Racing Sans One', cursive;
 // font-family: 'Oleo Script Swash Caps', cursive;
+
 html {
   position: relative;
   min-height: 100%;
 }
-
-// .footer {
-//   width: 100%;
-//   display:flex;
-//   justify-content: center;
-//   font-family: 'Sonsie One', cursive;
-//   color: white;
-//   font-size: 50px;
-// }
 
 body {
   background-color: transparent;
   min-height: 100%;
   margin-bottom: 140px;
 }
-.devise-bg {
-  background-image: url('http://www.mcdapictures.com/images/minimalistic_dark_grey_texture_2560x1600_wallpaperhicom.jpg');
-}
-
-.devise-bg::after {
-  background-size: cover;
-  content: "";
-  background-image: url('http://i.imgur.com/R1Hf4tO.jpg');
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
 
 .standard-bg {
   background-color: white;
-}
-
-.front-page-bg {
-  // background-color: transparent;
-  background-image: url('http://www.mcdapictures.com/images/minimalistic_dark_grey_texture_2560x1600_wallpaperhicom.jpg');
-}
-
-.front-page-bg::after {
-  background-size: cover;
-  content: "";
-  background-image: url('http://i.imgur.com/0xiTPXu.jpg');
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.footer, .push {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(45,45,40,0.9);
-}
-
-.footer-info {
-  position: flex;
-  justify-content: flex-start;
-  padding-left: 100px;
-  padding-top: 15px;
-  font-family: 'Racing Sans One', cursive;
-  line-height: 5px;
-  color: white;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-right: 100px;
-}
-
-.front-page-title-bar {
-  // display:flex;
-  // justify-content: center;
-  color: white;
-  background-color: rgba(45,45,40,0.9);
-  width: auto;
-}
-
-.front-page-title {
-  display:flex;
-  justify-content: center;
-  font-family: 'Sonsie One', cursive;
-  color: white;
-  font-size: 40px;
 }
 
 .panel-body {
@@ -150,73 +69,6 @@ body {
 .category-tile {
   width: 350px;
   height: 450px;
-}
-
-.navbar-brand {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 30px;
-}
-
-$bgDefault   : rgba(45,45,40,0.9);
-$bgHighlight : rgba(45,45,40,1);
-$colDefault  : rgba(255,255,255,1);
-$colHighlight: rgba(45,45,40,1);
-
-.navbar-default {
-  position: fixed;
-  width: 100%;
-  background-color: $bgDefault;
-  border-color: $bgHighlight;
-  .navbar-brand {
-    color: $colDefault;
-    &:hover, &:focus {
-      color: rgba(195,195,195,1); }}
-  .navbar-text {
-    color: $colDefault; }
-  .navbar-nav {
-    > li {
-      > a {
-        color: $colDefault;
-        &:hover,  &:focus {
-          color:  rgba(195,195,195,0.9);; }}}
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: $colHighlight;
-        background-color: $bgHighlight; }}
-    > .open {
-      > a, > a:hover, > a:focus {
-        color: $colHighlight;
-        background-color: $bgHighlight; }}}
-  .navbar-toggle {
-    border-color: $bgHighlight;
-    &:hover, &:focus {
-      background-color: $bgHighlight; }
-    .icon-bar {
-      background-color: $colDefault; }}
-  .navbar-collapse,
-  .navbar-form {
-    border-color: $colDefault; }
-  .navbar-link {
-    color: $colDefault;
-    &:hover {
-      color: $colHighlight; }}}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu {
-    > li > a {
-      color: $colDefault;
-      &:hover, &:focus {
-        color: $colHighlight; }}
-    > .active {
-      > a, > a:hover, > a:focus, {
-        color: $colHighlight;
-        background-color: $bgHighlight; }}}
-}
-
-.navbar-nav > li > .dropdown-menu {
-  background-color: rgba(195,195,195,0.9);
-  color: white;
-  font-style: 'Racing Sans One', cursive;
-  font-size: 20px;
 }
 
 .product {

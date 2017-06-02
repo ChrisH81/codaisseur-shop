@@ -1,0 +1,66 @@
+.navbar-brand {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 30px;
+}
+
+$bgDefault   : rgba(45,45,40,0.9);
+$bgHighlight : rgba(45,45,40,1);
+$colDefault  : rgba(255,255,255,1);
+$colHighlight: rgba(45,45,40,1);
+
+.navbar-default {
+  position: fixed;
+  width: 100%;
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: rgba(195,195,195,1); }}
+  .navbar-text {
+    color: $colDefault; }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color:  rgba(195,195,195,0.9);; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus, {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: rgba(195,195,195,0.9);
+  color: white;
+  font-style: 'Racing Sans One', cursive;
+  font-size: 20px;
+}
